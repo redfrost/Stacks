@@ -206,7 +206,7 @@ body {
     font-family: "proxima-nova", "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif; 
     /* -webkit-font-smoothing: antialiased; better for dark background */
     }
-    h1, h2, h3, h4, h5, h6, .btn, .navbar, .brand { font-family:; }
+    h1, h2, h3, h4, h5, h6, .btn, .navbar, .brand { font-family: "proxima-nova", "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 
 
 /* Font Size */
