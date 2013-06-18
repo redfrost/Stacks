@@ -3,7 +3,7 @@
 
 
     <!-- Body starts -->
-    <body id="home" class="<?=$Layoutstyle?>" data-spy="scroll">
+    <body id="top" class="<?=$Layoutstyle?>" data-spy="scroll">
 
 	<div id="master-wrap">
 	

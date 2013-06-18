@@ -37,7 +37,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 	          <p class="maker">Redfrost Design</p>
       	  </div>
           
-          <p class="back_top"><a href="#body"><i class="icon-arrow-up"></i> Back To Top</a></p>
+          <p class="back_top"><a href="#top"><i class="icon-arrow-up"></i> Back To Top</a></p>
           
           </section>
         </footer><!-- /#footer -->
@@ -45,7 +45,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 	</div><!-- /#master-wrap-->
 
     <div class="bg"></div><!-- BG for iPad -->     
-	
+	<div class="iosfix"></div><!-- Scroll with fixed menu fix -->
 	
 	
 	

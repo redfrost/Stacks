@@ -28,17 +28,17 @@
 a {
     color: #0088CC;
     text-decoration: none;
-}
-a:hover {
-    color: #005580;
-    text-decoration: none !important;
-	}
-
-	/* Remove Firefox selection dot */
-	a, a:focus, a:active, a:hover, object, embed { outline: none; }
-	:-moz-any-link:focus { outline: none; }
-	input::-moz-focus-inner { border: 0; }
-	:focus { outline: 0; }
+    }
+    a:hover, a:focus {
+        color: #005580;
+        text-decoration: none !important;
+	    }
+        /* Remove Firefox selection dot */
+        a, a:focus, a:active, a:hover, object, embed { outline: none; }
+        :-moz-any-link:focus { outline: none; }
+        input::-moz-focus-inner { border: 0; }
+        :focus { outline: 0; }
+	
 	
 del { color: #ccc;}
 
@@ -202,8 +202,11 @@ body {
    4. TYPOGRAPHY
    ============================================================================= */
    
-body, p, h1, h2, h3, h4, h5, h6, .btn, .navbar, .brand {
-  font-family: "Proxima", "Open Sans", "Helvetica Neue", "Helvetica", Arial, "Apple SD Gothic Neo", 나눔고딕, NanumGothic,'Malgun Gothic', Applegothic; sans-serif; }
+body { 
+    font-family: "proxima-nova", "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif; 
+    /* -webkit-font-smoothing: antialiased; better for dark background */
+    }
+    h1, h2, h3, h4, h5, h6, .btn, .navbar, .brand { font-family:; }
 
 
 /* Font Size */
@@ -241,25 +244,7 @@ blockquote p {
 
 .light { font-weight: 300; }
 .lighter { font-weight: 100; }
-
-
- /* Additional Font Style */
- .korean p {
-    font-size: 16px; font-size: 1rem;
-    line-height: 24px; line-height: 1.5rem;
-    margin: 0 0 19px;
-	}
-	.pen, .pen p { 
- 	 font-family: '나눔손글씨 펜',NanumPen,NanumPenWeb,"Apple SD Gothic Neo",'Malgun Gothic'!important;
- 	 }
-
- 	.brush, .brush p { 
- 	 font-family: '나눔손글씨 붓',NanumBrush,NanumBrushWeb,"Apple SD Gothic Neo",'Malgun Gothic'!important;
- 	 }
-
- 	.book, .book p { font-family: 나눔명조,NanumMyeongjo,NanumMyeongjoWeb,Georgia,"Apple SD Gothic Neo",'Malgun Gothic'!important; }
-
-
+small { color: #888; }
    
 
 
@@ -503,22 +488,9 @@ footer {
     border-top: 1px solid #DDDDDD;
     color: #999999;
     padding: 14px 0 50px;
-}
+    }
+    footer a:hover { opacity: 0.6; }
 	
-	@media (max-width: 767px) {	
-		footer {
-		    margin: -20px;
-		    padding: 20px;
-		} 
-		
-		.footer_menu_box li a { 
-	        margin-right: 0px !important; 
-	    }
-	}
-
-footer a:hover {
-	opacity: 0.6;
-}
 
 
 /* Footer menu */
@@ -526,26 +498,29 @@ footer a:hover {
     float: left;
     font-size: 18px; font-size: 1.125rem;
     width: 70%;
-}
-.footer_menu_box { 
-	margin: 0 0 0 0; 
-	}
-.footer_menu_box li { 
-	list-style: none; 
-	display: inline-block; 
-	}
-.footer_menu_box li a { 
-	color: #666;
-	text-transform: uppercase; 
-	margin-right: 10px; 
-	}
+    }
+    .footer_menu_box { 
+	    margin: 0; 
+	    }
+        .footer_menu_box li { 
+	        list-style: none; 
+	        display: inline-block; 
+	        }
+            .footer_menu_box li a { 
+	            color: #666;
+	            text-transform: uppercase; 
+	            margin-right: 10px; 
+	            }
 
 
 /* Copyright */
-.copyright {
-	float: left;
-	margin: 14px 0;
-}
+.copyright_box {
+    line-height: 1rem;
+    }
+    .copyright {
+    	float: left;
+    	margin: 14px 0;
+        }
 
 /* Production */
 .maker {
@@ -554,7 +529,7 @@ footer a:hover {
     padding-left: 6px;
     width: 200px;
     margin: 14px 0 0 6px;
-}
+    }
 
 /* Scroll to Top Button */
 .back_top { 
@@ -563,44 +538,32 @@ footer a:hover {
 	text-align: right; 
 	margin: 14px 0;
 	}
-.back_top a {
-	color: #999999;
-}
+    .back_top a {
+	    color: #999999;
+    }
 
 /* SNS Links */
 .sns_icons { 
 	width: 30%; 
 	float: left; 
 	}
-.sns_icons_box { float: right; }
-.sns_icons_box li {
-     display: inline-block;
-     line-height: 20px;
-     list-style: none outside none;
-     width: 32px; 
-}
-.sns_icons_box li a {
-    color: #666;
-    font-size: 32px; font-size: 2rem;
-}
+    .sns_icons_box { float: right; }
+    .sns_icons_box li {
+         display: inline-block;
+         line-height: 20px;
+         list-style: none outside none;
+         padding: 0 2px;
+        }
+        .sns_icons_box li a {
+            color: #666;
+            font-size: 32px; font-size: 2rem;
+            }
 
 
-
-.icon-facebook-sign:hover {
-     color: #355192;
-}
-
-.icon-twitter-sign:hover {
-     color: #3BBDE8;
-}
-
-.icon-vimeo-sign:hover {
-     color: #1AB7EA;
-}
-
-.icon-rss:hover {
-     color: #FFAE5B;
-}
+.icon-facebook-sign:hover { color: #355192; }
+.icon-twitter-sign:hover  { color: #3BBDE8; }
+.icon-vimeo-sign:hover    { color: #1AB7EA; }
+.icon-rss:hover           { color: #FFAE5B; }
 
    
 
@@ -808,85 +771,6 @@ html { filter: expression(document.execCommand("BackgroundImageCache", false, tr
 	body {
     padding-top: 0px;
 	}
-}
-
-
-/* Mobile Only */
-@media (max-device-height: 568px) {
-    html, p, #popup_trigger, .modal, .brand strong, .korean p, .hero-unit p {
-	font-size: 140%;
-	line-height: 140%;
-	}
-	body {
-	background: none;	
-	}
-	#master-wrap {
-	 padding-top: 0px;
-	}
-	.navbar .brand {
-	font-size: 100%;	
-	}
-	.navbar .nav {
-    margin: 0 10px 0 30px;
-	}
-	.navbar .nav a {
-    font-size: 120%;
-    line-height: 120%;
-	}		
-	.navbar-fixed-top, .navbar-fixed-bottom {
-    position: relative;
-	}
-	.modal {
-    left: 20px;
-    margin: auto;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    width: 900px !important;
-	}
-	#contact_form label {
-	font-size: 16px; font-size: 1rem;
-	}
-	.btn {
-	font-size: 100%;
-	padding: 20px;
-	}
-	.map iframe { height: 580px !important; }
-	.navbar-form {
-	display: none;	
-	}
-	
-.footer_menu, .copyright, .maker, .sns_icons, .sns_icons_box, .back_top {
-     float: none;
-     margin: 14px 0px 0px !important;
-     padding: 0px !important;
-     text-align: center !important;
-     width: 100% !important;
-	}
-	footer a {
-	 line-height: 140%;	
-	 }
-	.sns_icons_box li {
-     width: 60px; 
-	}
-	.sns_icons_box li a {
-     font-size: 48px; font-size: 3rem;
-	}
-	.back_top {
-	    float: none !important;
-	    margin: 40px 0 0 !important;
-	    text-align: center !important;
-	    width: 100% !important;
-		}
-		.back_top a {
-		    background: none repeat scroll 0 0 #999999;
-		    border: 4px solid #FFFFFF;
-		    border-radius: 30px 30px 30px 30px;
-		    color: #FFFFFF !important;
-		    padding: 10px 20px;
-		    box-shadow: 0 1px 2px #BBBBBB;
-		}
-
 }
 
 

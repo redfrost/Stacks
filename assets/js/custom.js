@@ -6,24 +6,21 @@
 
 
 // Smooth Scroll
-		    $(document).ready(function() {
-		    
-		      $('.nav a').smoothScroll({offset: -73});
-		    
-		    });
+    $(document).ready(function() {
+        $('.nav a').smoothScroll({offset: -73});
+	});
 
     // To Top
-		    $(document).ready(function() {
-		    
-		      $('.back_top a').smoothScroll({offset: 0});
-		    
-		    });
+	$(document).ready(function() {
+		$('.back_top a').smoothScroll({offset: 0});
+	});
 
 
 
 // Scrollspy offset
-$('[data-spy="scroll"]').scrollspy({ offset: 100 });
-
+	  jQuery(document).ready(function () {
+        $('[data-spy="scroll"]').scrollspy({ offset: 100 });
+	  });
 
 
 // Tooltip
