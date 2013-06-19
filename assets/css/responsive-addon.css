@@ -107,7 +107,7 @@
 	
 
 
-/* Mobile Only */
+/* Mobile Only
 @media (max-device-height: 568px) {
     html, p, #popup_trigger, .modal, .brand strong, .korean p, .hero-unit p {
 	font-size: 100% !important;
@@ -130,7 +130,7 @@
 	font-size: 100% !important;
 	}
 }
-
+*/
 
 /* Responsive Video	*/
 .entry-content-asset {
