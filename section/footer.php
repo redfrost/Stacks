@@ -13,10 +13,10 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
       			  	
       			  	<li><a href="index-carousel.php">Carousel</a></li>
-      			  	<li><a href="../stacks2/index.php">Main</a></li>
+      			  	<li><a href="../stacks/index.php">Main</a></li>
       			  	<li><a href="../stacks2/index.php">Static</a></li>
       			  	<li><a href="../stacks3/index.php">Full-width</a></li>
-      			  	<li><a onmouseover="this.style.cursor='pointer'" rel="tooltip" data-placement="top" title="V1.2.3">Version</a></li>
+      			  	<li><a onmouseover="this.style.cursor='pointer'" rel="tooltip" data-placement="top" title="V1.4">Version</a></li>
       			  	                    
       			  	                    
       			</ul>

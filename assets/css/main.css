@@ -413,6 +413,15 @@ h2, h3, h4 { color: #000000; }
 
 
 
+/* Carousel section */
+.hero-unit.carousel-section {
+    background-color: #304353;
+    background-image: none;
+    }
+
+
+
+
 /* About section */
 .tick_box .icon-ok:before {
     color: #89C01B;
@@ -681,7 +690,7 @@ footer {
 }
 
 /* CAROUSEL */
-#myCarousel { box-shadow: 0px 2px 5px rgba(0,0,0,0.3); }
+#myCarousel { box-shadow:; }
 
 .banner #myCarousel-auto .item, 
 .banner #myCarousel .item {

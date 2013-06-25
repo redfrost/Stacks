@@ -1,14 +1,14 @@
     <?php include("config.php"); ?>
     <?php include("section/head.php"); ?>
 
-                 
+
     <!-- Body starts -->
-    <body id="home" class="<?=$Layoutstyle?>" data-spy="scroll">
+    <body id="top" class="<?=$Layoutstyle?>" data-spy="scroll" style="opacity: 0;">
 
 	<div id="master-wrap">
 	
 		<!-- Header -->
-       		<?php include("section/section-menu.php"); ?>
+       	<?php include("section/section-menu.php"); ?>
 
 
 		<!-- Content -->
@@ -21,23 +21,22 @@
 
             <?php include("section/section-about.php"); ?>			
 			
-            <hr>
-
+            
             <?php include("section/section-services.php"); ?>
             
-            <hr> 
-            
+                        
             <?php include("section/section-pricing.php"); ?>
-
-            <hr>             
+                
 
             <?php include("section/section-team.php"); ?>
-
-            <hr> 
+             
                      
             <?php include("section/section-location.php"); ?>
 
-	        </div> <!-- /#main-content-->   
+
+            <?php include("section/section-partners.php"); ?>
+
+        </div> <!-- /#main-content-->   
         
         
         <!-- Footer -->

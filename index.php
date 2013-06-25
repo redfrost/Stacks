@@ -8,7 +8,7 @@
 	<div id="master-wrap">
 	
 		<!-- Header -->
-       		<?php include("section/section-menu.php"); ?>
+       	<?php include("section/section-menu.php"); ?>
 
 
 		<!-- Content -->

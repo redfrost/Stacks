@@ -1,16 +1,17 @@
-<section class="hero-unit jumbotron masthead">
+<section class="hero-unit carousel-section jumbotron masthead">
     <div class="<?=$containerClass?>">           
         <div class="<?=$rowClass?>"> 
         
 		    <div class="span12">
 
-                    <div id="myCarousel" class="carousel slide">
+                    <div id="myCarousel" class="carousel slide carousel-fade">
               
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                             <li data-target="#myCarousel" data-slide-to="1"></li>
                             <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
                         </ol>
                        
                     <div class="carousel-inner">
@@ -38,6 +39,14 @@
                             </div>
              
                         </div><!-- /Slide3 -->                      
+
+                        <div class="item">
+                        
+                            <div class="bannerImage">
+                                <a href="#"><img src="assets/img/banner_04.jpg" alt=""></a>
+                            </div>
+             
+                        </div><!-- /Slide4 -->    
              
                     </div>
                     
