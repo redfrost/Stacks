@@ -6,18 +6,14 @@
 
 
 // Smooth Scroll
-		    $(document).ready(function() {
-		    
-		      $('.nav a').smoothScroll({offset: -73});
-		    
-		    });
+    $(document).ready(function() {
+        $('.nav a').smoothScroll({offset: -73});
+	});
 
     // To Top
-		    $(document).ready(function() {
-		    
-		      $('.back_top a').smoothScroll({offset: 0});
-		    
-		    });
+	$(document).ready(function() {
+		$('.back_top a').smoothScroll({offset: 0});
+	});
 
 
 
@@ -105,7 +101,13 @@
 		
 // Add your own		
 		
-		
+	// Hide content until the page is fully loaded
+    $(document).ready(function() {
+        $(window).load(function() {
+          // When the page has loaded
+          $("body").fadeTo("slow", 1);
+        });
+    });
 		
 		
 		

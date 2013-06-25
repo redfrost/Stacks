@@ -1,4 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700,800);
+/* IMPORT */   
+@import url("custom.css");
+
 
 /*  *****************************************************************************
 	* BASIC STYLES																*
@@ -260,7 +262,13 @@ small { color: #888; }
     text-shadow: 0 1px 0 #FFFFFF;
 }
 
+.navbar .logo-image {
+    padding: 6px 20px;
+}
+
+
 /* Description */
+
 
 /* Navigation */
 .navbar-inner {
@@ -306,20 +314,35 @@ small { color: #888; }
    6. CONTENT
    ========================================================================== */
    	
+.full-bg { 
+    background: #c9d3d7;	
+    }
+#main-content .full-bg .container, 
+#main-content .full-bg .container-fluid {
+    border-bottom: 0px;
+}
+   	
+#main-content .container, 
+#main-content .container-fluid {
+    border-bottom: 1px solid #EEEEEE;
+    padding: 60px 0px;
+    }   	
+   	
 body { padding-top: 80px; } 
 /* * Enable this when fixed top menu is in use. */
         
-#main-content { padding-bottom: 60px; }
-section { padding: 14px 0; }
+#main-content { padding-bottom: 0px; }
+section { padding:; }
 
 .byline {
     color: #999999;
     font-size: 24px !important; font-size: 1.5rem !important;
     font-weight: 100;
     margin: 0px 0 26px;
+    line-height: 1.8rem;
 }
 
-body { color: #666; }	
+body { color: #888; }	
 h2, h3, h4 { color: #000000; }
 
 #contact h2, #about h2 {
@@ -339,31 +362,11 @@ h2, h3, h4 { color: #000000; }
 	margin-left: -20px; 
 	}
 
-/* About section */
-.tick_box .icon-ok:before {
-    color: #89C01B;
-}
-.tick_box {
-    margin: 0 0 20px;
-    padding: 0;
-}
-.tick_box li {
-	list-style: none;
-    font-size: 20px; font-size: 1.25rem;
-    font-weight: 500;
-    line-height: 32px; line-height: 2rem;
-}
 
 
-/* Service section */
-#services h2 {
-    font-size: 30px; font-size: 1.88rem;
-    font-weight: 100;
-}
-
- 
+/* Hero section */
 .hero-unit {
-    background-color: #37A3D6;
+    background-color: #304353;
     background-image: url("../img/home-bg.jpg");
     background-position: center center;
     background-size: cover;
@@ -385,6 +388,7 @@ h2, h3, h4 { color: #000000; }
 .hero-unit h1 {
     color: white;
     font-size: 60px;
+    font-weight: 5;
     letter-spacing: -1px;
     line-height: 1;
     margin-bottom: 12px;
@@ -393,16 +397,57 @@ h2, h3, h4 { color: #000000; }
 }
 	
 .hero-unit p {
-	font-size: 20px; font-size: 1.25rem;
-}
-
-.hero-unit p {
     font-size: 22px;font-size: 1.38rem;
     line-height: 26px;line-height: 1.63rem;
+    color: #fff;
 }   
-   
-   
-   
+
+@media (min-width: 1025px) {
+    .hero-unit h1 {
+        margin-top: 260px;
+    }
+    .hero-unit p {
+        margin-bottom: 20px;
+    }        
+}
+
+
+
+/* Carousel section */
+.hero-unit.carousel-section {
+    background-color: #304353;
+    background-image: none;
+    }
+
+
+
+
+/* About section */
+.tick_box .icon-ok:before {
+    color: #89C01B;
+}
+.tick_box {
+    margin: 0 0 20px;
+    padding: 0;
+    text-align: left;
+}
+.tick_box li {
+	list-style: none;
+    font-size: 20px; font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 32px; line-height: 2rem;
+}
+
+
+
+/* Service section */
+#services h2 {
+    font-size: 30px; font-size: 1.88rem;
+    font-weight: 100;
+}
+
+ 
+      
    
 /* Pricing section */   
 .pricelist {
@@ -410,10 +455,14 @@ h2, h3, h4 { color: #000000; }
     border: 5px solid #DDDDDD !important;
     border-radius: 0px !important;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5) !important;
+    /* prevents alignment in static view */    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .pricelist.bestseller {  
-    border: 8px solid #52A552 !important;
+    border: 8px solid #304353 !important;
     background: #fff;
 -webkit-transform: scale(1.15);
    -moz-transform: scale(1.15);
@@ -476,6 +525,21 @@ h2, h3, h4 { color: #000000; }
 
    
    
+/* Partners */   
+#partners.full-bg {
+    background: #f0f0f0;
+}
+.partner-list { 
+    text-align: center; 
+    margin: 0;
+    }
+    .partner-list li { 
+        display: inline-block; 
+        margin: 24px; 
+        }
+        .partner-list li img {
+            width: 120px;    
+            }
    
    
    
@@ -484,10 +548,10 @@ h2, h3, h4 { color: #000000; }
    ========================================================================== */
 
 footer {
-    background: none repeat scroll 0 0 #EEEEEE;
-    border-top: 1px solid #DDDDDD;
-    color: #999999;
-    padding: 14px 0 50px;
+    background: #304353;
+    border-top: 0px solid #DDDDDD;
+    color: #fff;
+    padding: 26px 0 50px;
     }
     footer a:hover { opacity: 0.6; }
 	
@@ -507,7 +571,7 @@ footer {
 	        display: inline-block; 
 	        }
             .footer_menu_box li a { 
-	            color: #666;
+	            color: #fff;
 	            text-transform: uppercase; 
 	            margin-right: 10px; 
 	            }
@@ -539,7 +603,7 @@ footer {
 	margin: 14px 0;
 	}
     .back_top a {
-	    color: #999999;
+	    color: #fff;
     }
 
 /* SNS Links */
@@ -547,23 +611,26 @@ footer {
 	width: 30%; 
 	float: left; 
 	}
-    .sns_icons_box { float: right; }
-    .sns_icons_box li {
-         display: inline-block;
-         line-height: 20px;
-         list-style: none outside none;
-         padding: 0 2px;
+    .sns_icons_box { 
+        float: right; 
+        margin-top: -6px; 
         }
-        .sns_icons_box li a {
-            color: #666;
-            font-size: 32px; font-size: 2rem;
+        .sns_icons_box li {
+            display: inline-block;
+            line-height: 20px;
+            list-style: none outside none;
+            padding: 0 2px;
             }
+            .sns_icons_box li a {
+                color: #fff;
+                font-size: 32px; font-size: 2rem;
+                }
 
 
-.icon-facebook-sign:hover { color: #355192; }
-.icon-twitter-sign:hover  { color: #3BBDE8; }
-.icon-vimeo-sign:hover    { color: #1AB7EA; }
-.icon-rss:hover           { color: #FFAE5B; }
+.sns-link1:hover { color: #355192 !important; }
+.sns-link2:hover  { color: #3BBDE8 !important; }
+.sns-link3:hover    { color: #1AB7EA !important; }
+.sns-link4:hover           { color: #FFAE5B !important; }
 
    
 
@@ -627,7 +694,7 @@ footer {
 }
 
 /* CAROUSEL */
-#myCarousel { box-shadow: 0px 2px 5px rgba(0,0,0,0.3); }
+#myCarousel { box-shadow:; }
 
 .banner #myCarousel-auto .item, 
 .banner #myCarousel .item {
@@ -782,6 +849,7 @@ html { filter: expression(document.execCommand("BackgroundImageCache", false, tr
 .footer_menu_box .popover-content {
     font-size: 0.63rem;
     line-height: 1rem;
+    color: #666;
 }
 
 

@@ -9,6 +9,15 @@
 
     body.responsive { min-width:; }
 
+	@media (min-width: 1025px) {
+    #main-content .container, 
+    #main-content .container-fluid {
+        padding: 60px 24px;
+        }   	
+    }
+
+
+
 /* HEADER */
 	@media (max-width: 979px) {	  
 	.navbar .nav { float: none !important; }
@@ -21,13 +30,12 @@
     }
 
 	@media (max-width: 767px) {	  
-	.hero-unit {
+	.hero-unit, .full-bg {
 	    margin: -20px;
 	    padding: 20px !important;
 		}
 	}
 	
-
       
    
 /* FOOTER */
@@ -107,7 +115,7 @@
 	
 
 
-/* Mobile Only
+/* Mobile Only 
 @media (max-device-height: 568px) {
     html, p, #popup_trigger, .modal, .brand strong, .korean p, .hero-unit p {
 	font-size: 100% !important;
