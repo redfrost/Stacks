@@ -4,20 +4,28 @@
 $SiteTitle= "Stacks"; // Website title
 $Description= "Simple and intuitive website boilerplate"; // Website description 
 $Author= "Redfrost"; // Site owner
-$Publisher= "Massivesound"; // Site developer or publisher
+$Designer= "Massivesound"; // Site designer or developer
+$Copyright= "Redfrost"; //Search keywords
 $Keywords= ""; //Search keywords
+$fbAppID= ""; //Facebook App ID
 
 
 //Layout Setting
 $Layoutstyle= "responsive"; // "responsive" or "static"
-$ResponsiveWidth= "960"; // Set maximum content width in Responsive layout mode
+$ResponsiveWidth= "1100"; // Set maximum content width in Responsive layout mode
+
+
+// CUSTOM LOGO
+$LOGO_TYPE= "image";  // image or text
+$LOGO_PATH= "assets/img/logo.png";  // Set image URL
+$LOGO_WIDTH="150"; // Set 1/2 size of image width for Retina display
 
 
 //Options
 define('GOOGLE_ANALYTICS_ID', ''); // UA-XXXXX-Y
-define('TYPEKIT_ID', 'wng7msj'); // ADOBE TYPEKIT ID
-define('WUFOO_LINK', 'https://simonalex.wufoo.com/forms/z7x3x5/#public'); // WUFOO FORM ID
-define('WUFOO_STAMP', '2K4l2NUNrKXsGwMdJkS37DEWU57UC2YJH05gY+V50og='); // WUFOO FORM ID
+define('TYPEKIT_ID', 'mng3caa'); // ADOBE TYPEKIT ID
+define('WUFOO_LINK', ''); // WUFOO FORM LINK
+define('WUFOO_STAMP', ''); // WUFOO FORM ID
 define('FEATURE_VIDEO_URL', 'http://player.vimeo.com/video/56860648'); // Feature Video URL
 
 

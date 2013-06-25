@@ -1,3 +1,12 @@
+### 1.4: 24-June-2013
+* New look!
+* Each sections now can use full-width background
+* Typekit support
+* Image based Logo
+* Open graph based meta data support
+* New section: Partners
+
+
 ### 1.3.2: 7-June-2013
 * Static / Responsive switch
 * Font-awsome is now on CDN

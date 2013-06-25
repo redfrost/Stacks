@@ -1,4 +1,5 @@
 <section id="contact">
+    <div class="<?=$containerClass?>"> 
        <h2><i class="icon-comments-alt"></i> Got Questions?</h2>
 			<p class="byline">Help and support</p>
 					
@@ -6,10 +7,13 @@
 
             <div class="<?=$rowClass?>">       
                
-				<div class="span7">
-
+				<div class="span7 map">
+					<span class="mapaddress"><?=$USER_ADDRESS?></span>						
+				</div>						
+				
+				<div class="span5">			
+                	<div class="address">
 					
-					<div class="well">
 					<h3><strong>Address:</strong></h3>
 
 					<address>
@@ -27,12 +31,6 @@
 					<h6><em>*Working hours: 9:00AM - 5:00PM (Monday to Friday)</em></h6>		
                     
 					</div>
-											
-							
-				</div>						
-				
-				<div class="span5 map">			
-                <span class="mapaddress"><?=$USER_ADDRESS?></span>
 				</div>				
 		  </div>
 
@@ -55,5 +53,5 @@
 				    </div>
 			</div>
            
-           
+   </div>        
 </section>

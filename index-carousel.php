@@ -17,7 +17,7 @@
         <?php include("section/section-carousel.php"); ?>	
 
 
-        <div id="main-content" class="<?=$containerClass?>">
+        <div id="main-content">
 
             <?php include("section/section-about.php"); ?>			
 			

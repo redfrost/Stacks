@@ -25,10 +25,10 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 	  		<!-- SNS Links -->
       		<div class="sns_icons">
       			<ul class="sns_icons_box">
-      				<li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>
-      				<li><a class="twitter" href="#"><i class="icon-twitter"></i></a></li>
-      				<li><a class="Github" href="#"><i class="icon-github"></i></a></li>
-      				<li><a class="feed" href="#"><i class="icon-home"></i></a></li>
+      				<li><a class="sns-link1" href="#"><i class="icon-facebook"></i></a></li>
+      				<li><a class="sns-link2" href="#"><i class="icon-twitter"></i></a></li>
+      				<li><a class="sns-link3" href="#"><i class="icon-github"></i></a></li>
+      				<li><a class="sns-link4" href="#"><i class="icon-home"></i></a></li>
 				</ul>
 			</div>
 
@@ -65,12 +65,8 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
         <script>
             var _gaq=[['_setAccount','<?php echo GOOGLE_ANALYTICS_ID; ?>'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            g.src='//www.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-                
+        </script>              
     </body>
 </html>
-
-
-        

@@ -6,17 +6,33 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
+
+
+                    <!-- Logo Image -->
+                    <?php if ($LOGO_TYPE == "image") { ?> 
                     
+                    <a class="brand logo-image" href="#">
+                    <img alt="<?=$SiteTitle?>" src="<?=$LOGO_PATH?>" style="max-width:<?=$LOGO_WIDTH?>px;">
+                    </a>
+                        
+                    <? } else { ?>
+                
                     <!-- Logo -->
-                    <a class="brand" href="#"><strong><i class="icon-bolt"></i> STACKS</strong></a>
+                    <a class="brand" href="#"><strong><i class="icon-reorder"></i> Stacks</strong></a>
+                
+                    <?php } ?>
+
+
+
                     
                     <!-- Navigation -->
                     <nav class="nav-collapse collapse">
                         <ul class="nav">
-	                        <li class="active"><a href="#home">Home</a></li>
+	                        <li class="active"><a href="#top">Home</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#services">Services</a></li>                                                                               
                             <li><a href="#pricing">Pricing</a></li> 
+                            <li><a href="#team">Our Team</a></li> 
                             <li><a href="#contact">Contact</a></li>                            
                             <!-- <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
@@ -32,12 +48,6 @@
                             </li> --> 
                         </ul>
                         
-                        <!-- Form 
-                        <form class="navbar-form pull-right">
-                            <input class="span2" type="text" placeholder="Email">
-                           
-                            <button type="submit" class="btn">Get Newsletters</button>
-                        </form> -->
                         
                     </nav><!--/.nav-collapse -->
                 </div>

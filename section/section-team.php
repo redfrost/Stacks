@@ -1,5 +1,5 @@
 <section id="team">
-
+    <div class="<?=$containerClass?>"> 
     <h1 class="light text-center">Our Team</h1>
     <p class="byline text-center">Praesent commodo cursus magna</p>
 
@@ -82,5 +82,6 @@
         </ul>
     
         
+    </div>
     </div>
 </section>

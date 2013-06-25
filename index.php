@@ -3,7 +3,7 @@
 
 
     <!-- Body starts -->
-    <body id="top" class="<?=$Layoutstyle?>" data-spy="scroll">
+    <body id="top" class="<?=$Layoutstyle?>" data-spy="scroll" style="opacity: 0;">
 
 	<div id="master-wrap">
 	
@@ -17,25 +17,24 @@
         <?php include("section/section-featured.php"); ?>	
 
 
-        <div id="main-content" class="<?=$containerClass?>">
+        <div id="main-content">
 
             <?php include("section/section-about.php"); ?>			
 			
-            <hr>
-
+            
             <?php include("section/section-services.php"); ?>
             
-            <hr> 
-                       
+                        
             <?php include("section/section-pricing.php"); ?>
-            
-            <hr> 
+                
 
             <?php include("section/section-team.php"); ?>
-
-            <hr> 
+             
                      
             <?php include("section/section-location.php"); ?>
+
+
+            <?php include("section/section-partners.php"); ?>
 
         </div> <!-- /#main-content-->   
         

@@ -21,7 +21,7 @@
     }
 
 	@media (max-width: 767px) {	  
-	.hero-unit {
+	.hero-unit, .full-bg {
 	    margin: -20px;
 	    padding: 20px !important;
 		}

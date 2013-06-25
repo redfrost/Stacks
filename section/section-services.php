@@ -1,5 +1,5 @@
 <section id="services">
-            
+    <div class="<?=$containerClass?>">             
     <div class="<?=$rowClass?>">
         <div class="span12">
             <h1 class="light text-centre">Services</h1>
@@ -28,5 +28,5 @@
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</p>
         </div>
     </div>    
-    
+    </div>
 </section>
