@@ -455,6 +455,10 @@ h2, h3, h4 { color: #000000; }
     border: 5px solid #DDDDDD !important;
     border-radius: 0px !important;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5) !important;
+    /* prevents alignment in static view */    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .pricelist.bestseller {  
@@ -845,6 +849,7 @@ html { filter: expression(document.execCommand("BackgroundImageCache", false, tr
 .footer_menu_box .popover-content {
     font-size: 0.63rem;
     line-height: 1rem;
+    color: #666;
 }
 
 

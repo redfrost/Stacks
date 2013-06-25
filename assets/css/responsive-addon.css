@@ -9,6 +9,15 @@
 
     body.responsive { min-width:; }
 
+	@media (min-width: 1025px) {
+    #main-content .container, 
+    #main-content .container-fluid {
+        padding: 60px 24px;
+        }   	
+    }
+
+
+
 /* HEADER */
 	@media (max-width: 979px) {	  
 	.navbar .nav { float: none !important; }
@@ -27,7 +36,6 @@
 		}
 	}
 	
-
       
    
 /* FOOTER */
