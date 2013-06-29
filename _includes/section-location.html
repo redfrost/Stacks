@@ -1,0 +1,57 @@
+<section id="contact">
+    <div class="{{site.containerClass}}"> 
+       <h2><i class="icon-comments-alt"></i> Got Questions?</h2>
+			<p class="byline">Help and support</p>
+					
+			<p>The Very Best Way To Get in Touch With Us.</p>
+
+            <div class="{{site.rowClass}}">       
+               
+				<div class="span7 map">
+					<span class="mapaddress">{{site.userInfo.address}}</span>						
+				</div>						
+				
+				<div class="span5">			
+                	<div class="address">
+					
+					<h3><strong>Address:</strong></h3>
+
+					<address>
+					{{site.userInfo.address}}
+					</address>
+
+                    <p>P.O.BOX: {{site.userInfo.pobox}}</p>
+					<p>PH: {{site.userInfo.phone}}<br />
+					FAX: {{site.userInfo.fax}}
+					</p>		
+					
+					<p>Please feel free to contact me for more information.<br>
+					Send us an e-mail by filling out the form below.</p>
+					
+					<h6><em>{{site.userInfo.workingHours}}</em></h6>		
+                    
+					</div>
+				</div>				
+		  </div>
+
+           
+           	<!-- Contact Form -->
+			<div class="{{site.rowClass}}">
+				    <div class="span12 contact_box">
+				    
+				    <!-- Popup trigger -->   	
+    				<div class="text-center">
+        				<button type="button" class="btn btn-danger btn-large" data-toggle="collapse" data-target="#contact_form">
+        				<i class="icon-arrow-right"></i> <strong>SEND US AN ENQUIRY</strong>
+        				</button>	
+    				</div>		
+				    
+				    <div id="contact_form" class="collapse">    
+                        {% include contact-form.html %}
+					</div><!-- /#contact_form -->
+						
+				    </div>
+			</div>
+           
+   </div>        
+</section>

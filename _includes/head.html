@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<!--
+|~)[~|~\|~|~)/~\(~~|~
+|~\[_|_/|~|~\\_/_) | 
+When you look into an abyss, the abyss also looks into you. 
+-->  
+     
+    	<!-- Site info -->      
+        <title>{{site.name}}</title>   
+        <meta property="og:url" content="{{site.url}}" />
+        <meta property="og:description" name="description" content="{{site.description}}" />
+        <meta property="fb:app_id" content="{{site.fbAppID}}" />
+        <meta property="og:type" content="website" />
+        
+        <meta name="author" content="{{site.author}}">
+        <meta name="designer" content="{{site.designer}}">
+        <meta name="dcterms.rightsHolder" content="(c) {{site.name}}">
+        <meta name="keywords" content="{{site.keywords}}"> 
+        
+        
+		<!-- Icons -->
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+		<link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon.png">
+        <meta property="og:image" content="assets/img/thumbnail.png" />		
+		
+		
+		<!-- Main Scripts -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script><!-- Old Browser Support -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/custom.js"></script>
+		
+		
+		<!-- Style -->
+		<link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/css/main.css">      
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.0/css/font-awesome.min.css">
+
+
+    	{% if site.typekitId == empty %}
+    	{% else %}
+    	<!-- Typekit -->
+        <script type="text/javascript" src="//use.typekit.net/{{site.typekitId}}.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    	{% endif %}
+        
+
+    	<!-- Mobile View -->     
+    	{% if site.layoutStyle == 'responsive' %}
+    	<meta name="viewport" content="width=device-width">
+    	<link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/responsive-addon.css">
+    	<style type="text/css">
+    	.responsive .container-fluid { margin: auto; max-width: {{site.contentWidth}}; }
+    	</style>
+    	{% else %}
+    	<meta name="viewport" content="width=1025">
+    	{% endif %}
+	        
+    </head>
