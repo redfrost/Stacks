@@ -38,7 +38,7 @@ When you look into an abyss, the abyss also looks into you.
 		<!-- Style -->
 		<link rel="stylesheet" href="assets/css/base.css">
         <link rel="stylesheet" href="assets/css/main.css">      
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.0/css/font-awesome.min.css">
 
 
         <!-- Typekit -->
