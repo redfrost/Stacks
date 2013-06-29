@@ -255,6 +255,9 @@ small { color: #888; }
    5. HEADER
    ========================================================================== */
 /* Logo */
+.navbar h1 {
+    margin-top: 0;
+}
 .navbar .brand {
     color: #666666;
     font-size: 32px; font-size: 2rem;
@@ -263,7 +266,8 @@ small { color: #888; }
 }
 
 .navbar .logo-image {
-    padding: 6px 20px;
+    padding: 0px 20px 6px 20px;
+    width: 150px;
 }
 
 
@@ -293,6 +297,7 @@ small { color: #888; }
 
 .navbar .nav {
     float: right;
+    margin: -8px 10px 0 0;
 }
 .nav > li > a {
     display: block;
@@ -308,7 +313,11 @@ small { color: #888; }
     text-decoration: none;
 }
 
-
+.navbar .btn, .navbar .btn-group {
+    border-radius: 0 0 0 0;
+    margin-top: 5px;
+    padding: 13px 13px !important;
+}
 
 /* ==========================================================================
    6. CONTENT
