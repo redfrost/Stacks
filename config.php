@@ -18,7 +18,7 @@ $ResponsiveWidth= "1100"; // Set maximum content width in Responsive layout mode
 // CUSTOM LOGO
 $LOGO_TYPE= "image";  // image or text
 $LOGO_PATH= "assets/img/logo.png";  // Set image URL
-$LOGO_WIDTH="150"; // Set 1/2 size of image width for Retina display
+
 
 
 //Options

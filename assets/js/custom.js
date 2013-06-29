@@ -8,11 +8,7 @@
 // Smooth Scroll
     $(document).ready(function() {
         $('.nav a').smoothScroll({offset: -73});
-	});
-
-    // To Top
-	$(document).ready(function() {
-		$('.back_top a').smoothScroll({offset: 0});
+	    $('.back_top a').smoothScroll({offset: 0});
 	});
 
 
@@ -23,17 +19,13 @@
 	  });
 
 
-// Tooltip
+
+// Tooltip & Popover
 	  jQuery(document).ready(function () {
 	    $("[rel=tooltip]").tooltip();
-	  });
-
-	
-	
-// Popover
-	  jQuery(document).ready(function () {
 	    $("[rel=popover]").popover();
 	  });
+
 
 
 // Carousel	Auto

@@ -16,7 +16,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
       			  	<li><a href="../stacks/index.php">Main</a></li>
       			  	<li><a href="../stacks2/index.php">Static</a></li>
       			  	<li><a href="../stacks3/index.php">Full-width</a></li>
-      			  	<li><a onmouseover="this.style.cursor='pointer'" rel="tooltip" data-placement="top" title="V1.4">Version</a></li>
+      			  	<li><a onmouseover="this.style.cursor='pointer'" rel="tooltip" data-placement="top" title="V1.4.1">Version</a></li>
       			  	                    
       			  	                    
       			</ul>
@@ -54,7 +54,8 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 
         <!-- Plugins -->
-        <script type="text/javascript" src="assets/plugin/smooth-scroll.js"></script><!-- Smooth Scroll -->
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+        <script type="text/javascript" src="assets/plugin/plugins.js"></script><!-- Smooth Scroll -->
         <script type="text/javascript" src="assets/plugin/wufoo.js"></script><!-- Form control -->
     	<script type="text/javascript" src="assets/plugin/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
     	<script type="text/javascript" src="assets/plugin/fancybox/jquery.fancybox-1.3.4.pack.js"></script>

@@ -14,7 +14,6 @@ When you look into an abyss, the abyss also looks into you.
         <title><?=$SiteTitle?></title>   
         <meta property="og:site_name" content="<?=$SiteTitle?>" />
         <meta property="og:description" name="description" content="<?=$Description?>" />
-        <meta property="og:image" content="assets/img/thumbnail.png" />
         <meta property="fb:app_id" content="<?=$fbAppID?>" />
         <meta property="og:type" content="website" />
         
@@ -25,9 +24,9 @@ When you look into an abyss, the abyss also looks into you.
         
         
 		<!-- Icons -->
-		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon.png">
-        		
+        <meta property="og:image" content="assets/img/thumbnail.png" />		
 		
 		<!-- Main Scripts -->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script><!-- Old Browser Support -->

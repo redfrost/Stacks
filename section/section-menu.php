@@ -12,7 +12,7 @@
                     <?php if ($LOGO_TYPE == "image") { ?> 
                     
                     <a class="brand logo-image" href="#">
-                    <img alt="<?=$SiteTitle?>" src="<?=$LOGO_PATH?>" style="max-width:<?=$LOGO_WIDTH?>px;">
+                    <img alt="<?=$SiteTitle?>" src="<?=$LOGO_PATH?>">
                     </a>
                         
                     <? } else { ?>

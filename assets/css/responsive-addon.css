@@ -27,6 +27,9 @@
 	  .navbar-fixed-top {
 	    margin-bottom: 0px;
 	    }
+	    .copyright_box {
+        float: left !important;
+        }
     }
 
 	@media (max-width: 767px) {	  
