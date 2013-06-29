@@ -9,13 +9,6 @@
 
     body.responsive { min-width:; }
 
-	@media (min-width: 1025px) {
-    #main-content .container, 
-    #main-content .container-fluid {
-        padding: 60px 24px;
-        }   	
-    }
-
 
 
 /* HEADER */
