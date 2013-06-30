@@ -334,7 +334,7 @@ small { color: #888; }
 #main-content .container, 
 #main-content .container-fluid {
     border-bottom: 1px solid #EEEEEE;
-    padding: 60px 0px;
+    padding: 60px 24px;
     }   	
    	
 body { padding-top: 80px; } 
