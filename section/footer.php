@@ -2,8 +2,8 @@
           <section class="<?=$containerClass?>">
 
 	  		<!-- Footer menu -->
-	  		<div class="footer_menu">
-      			<ul class="footer_menu_box">
+	  		<div class="footer-menu">
+      			<ul class="footer-menu-box">
       			  	<li><a href="https://github.com/redfrost/Stacks">Download</a></li>
                     <li><a onmouseover="this.style.cursor='pointer'" rel="popover" data-placement="top" data-content="Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -23,8 +23,8 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
       		</div>
 
 	  		<!-- SNS Links -->
-      		<div class="sns_icons">
-      			<ul class="sns_icons_box">
+      		<div class="sns-icons">
+      			<ul class="sns-icons-box">
       				<li><a class="sns-link1" href="#"><i class="icon-facebook"></i></a></li>
       				<li><a class="sns-link2" href="#"><i class="icon-twitter"></i></a></li>
       				<li><a class="sns-link3" href="#"><i class="icon-github"></i></a></li>
@@ -32,12 +32,12 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 				</ul>
 			</div>
 
-		  <div class="copyright_box">
+		  <div class="copyright-box">
 	          <p class="copyright">&copy; <?php echo date("Y") ?> Stacks</p>
 	          <p class="maker">Redfrost Design</p>
       	  </div>
           
-          <p class="back_top"><a href="#top"><i class="icon-arrow-up"></i> Back To Top</a></p>
+          <p class="back-top"><a href="#top"><i class="icon-arrow-up"></i> Back To Top</a></p>
           
           </section>
         </footer><!-- /#footer -->

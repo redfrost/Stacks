@@ -37,18 +37,18 @@
            
            	<!-- Contact Form -->
 			<div class="<?=$rowClass?>">
-				    <div class="span12 contact_box">
+				    <div class="span12 contact-box">
 				    
 				    <!-- Popup trigger -->   	
     				<div class="text-center">
-        				<button type="button" class="btn btn-danger btn-large" data-toggle="collapse" data-target="#contact_form">
+        				<button type="button" class="btn btn-danger btn-large" data-toggle="collapse" data-target="#contact-form">
         				<i class="icon-arrow-right"></i> <strong>SEND US AN ENQUIRY</strong>
         				</button>	
     				</div>		
 				    
-				    <div id="contact_form" class="collapse">    
+				    <div id="contact-form" class="collapse">    
                         <?php include("section/contact-form.php"); ?>
-					</div><!-- /#contact_form -->
+					</div><!-- /#contact-form -->
 						
 				    </div>
 			</div>
