@@ -1,4 +1,4 @@
-<div id="contact_form" class="ltr">
+<div id="contact-form" class="ltr">
 <hr>
 
 	<form id="form1" name="form1" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
@@ -30,6 +30,6 @@
     	</ul>
 	</form> 
 				
-</div><!-- /#contact_form -->
+</div><!-- /#contact-form -->
 
 			

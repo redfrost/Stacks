@@ -8,7 +8,7 @@
 // Smooth Scroll
     $(document).ready(function() {
         $('.nav a').smoothScroll({offset: -73});
-	    $('.back_top a').smoothScroll({offset: 0});
+	    $('.back-top a').smoothScroll({offset: 0});
 	});
 
 
