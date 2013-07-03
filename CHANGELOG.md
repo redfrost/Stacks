@@ -1,3 +1,7 @@
+### 1.4.1: 29-June-2013
+* Jekyll beta version update
+
+
 ### 1.4: 24-June-2013
 * New look!
 * Each sections now can use full-width background
