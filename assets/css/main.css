@@ -570,6 +570,7 @@ footer {
 .footer-menu {
     float: left;
     font-size: 18px; font-size: 1.125rem;
+    line-height: 1.6;
     width: 70%;
     }
     .footer-menu-box { 
@@ -586,6 +587,15 @@ footer {
 	            }
 
 
+.footer-note {
+    border-top: 1px solid #3c5366;
+    display: inline-block;
+    font-size: 0.88rem;
+    font-weight: 200;
+    margin-top: 30px;
+    padding-top: 14px;
+}
+
 /* Copyright */
 .copyright-box {
     line-height: 1rem;
@@ -598,10 +608,11 @@ footer {
 /* Production */
 .maker {
     border-left: 1px solid #ccc;
+    line-height: 1;
     float: left;
     padding-left: 6px;
     width: 200px;
-    margin: 14px 0 0 6px;
+    margin: 18px 0 0 6px;
     }
 
 /* Scroll to Top Button */
@@ -635,12 +646,12 @@ footer {
                 font-size: 32px; font-size: 2rem;
                 }
 
-
+/*
 .sns-link1:hover { color: #355192 !important; }
 .sns-link2:hover  { color: #3BBDE8 !important; }
 .sns-link3:hover    { color: #1AB7EA !important; }
 .sns-link4:hover           { color: #FFAE5B !important; }
-
+*/
    
 
 /* =============================================================================
