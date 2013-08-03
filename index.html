@@ -28,13 +28,7 @@ When you look into an abyss, the abyss also looks into you.
 		<link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon.png">
         <meta property="og:image" content="assets/img/thumbnail.png" />		
 		
-		
-		<!-- Main Scripts -->
-		<script src="assets/js/modernizr.js"></script><!-- Old Browser Support -->
-        <script src="assets/js/jquery.js"></script>
-        <script src="assets/js/script.js"></script>
-        <script src="assets/js/custom.js"></script>
-		
+				
 		
 		<!-- Style -->
 		<link rel="stylesheet" href="assets/css/base.css">
@@ -63,8 +57,8 @@ When you look into an abyss, the abyss also looks into you.
 
 
 <!-- Body starts -->
-<body id="top" class="responsive" data-spy="scroll" style="opacity: 0;">
-    <div id="master-wrap">
+<body id="top" class="responsive" data-spy="scroll">
+    <div id="master-wrap" style="opacity: 0;">
 		
 		<!-- Header -->
                 <header class="navbar navbar-fixed-top">
@@ -109,7 +103,7 @@ When you look into an abyss, the abyss also looks into you.
     <div class="container-fluid">           
 		<div class="row-fluid"> 
 			<div class="span12">  
-	            <h1>Simple <span class="lighter">&amp; Intuitive</span></h1>
+	            <h1>Simple <span class="goudy">&amp;</span> <span class="lighter">Intuitive</span></h1>
 	            <p class="light">Minimalistic Website Theme Created for<br>Creative individuals and Startups</p>
 	            <p><a class="btn btn-info btn-large fancybox video" href="http://player.vimeo.com/video/56860648">Quick Tour &raquo;</a></p>
 	        </div>    
@@ -468,10 +462,10 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
       			  	
       			  	<li><a href="index-carousel.html">Carousel</a></li>
-      			  	<li><a href="#">Main</a></li>
-      			  	<li><a href="#">Static</a></li>
-      			  	<li><a href="#">Full-width</a></li>
-      			  	<li><a onmouseover="this.style.cursor='pointer'" rel="tooltip" data-placement="top" title="V1.4.1">Version</a></li>
+      			  	<li><a href="index.html">Main</a></li>
+      			  	<li><a href="index-static.html">Static</a></li>
+      			  	<li><a href="index-fullwidth.html">Full-width</a></li>
+      			  	<li><a onmouseover="this.style.cursor='pointer'" rel="tooltip" data-placement="top" title="V1.4.2">Version</a></li>
       			  	                    
       			  	                    
       			</ul>
@@ -481,11 +475,14 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
       		<div class="sns-icons">
       			<ul class="sns-icons-box">
       				<li><a class="sns-link1" href="https://www.facebook.com/simonalexlim"><i class="icon-facebook"></i></a></li>
-      				<li><a class="sns-link2" href=""><i class="icon-twitter"></i></a></li>
-      				<li><a class="sns-link3" href=""><i class="icon-youtube"></i></a></li>
-      				<li><a class="sns-link4" href="#"><i class="icon-home"></i></a></li>
+      				<li><a class="sns-link2" href="#"><i class="icon-twitter"></i></a></li>
+      				<li><a class="sns-link3" href="#"><i class="icon-google-plus"></i></a></li>
+      				<li><a class="sns-link4" href="#"><i class="icon-youtube"></i></a></li>
 				</ul>
 			</div>
+
+
+          <div class="footer-note">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
 
 		  <div class="copyright-box">
 	          <p class="copyright">&copy; 2013 Stacks</p>
@@ -499,14 +496,21 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
         
 	</div><!-- /#master-wrap-->
 
-    <div class="bg"></div><!-- BG for iPad -->     
-	<div class="iosfix"></div><!-- Scroll with fixed menu fix -->
-	
-	
+
+        <!-- Preloader -->
+        <div id="preloader" class="progress progress-striped active" style="width:200px"><div class="bar" style="width: 100%;"></div></div>            
+        
+        <div class="bg"></div><!-- BG for iPad -->     
+
 	
 	    <!-- Modal Popup - Insert your code -->
 
-
+		<!-- Main Scripts -->
+		<script src="assets/js/modernizr.js"></script><!-- Old Browser Support -->
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/custom.js"></script>
+        
 
         <!-- Plugins -->
         <script type="text/javascript" src="assets/plugin/prefixfree.js"></script>

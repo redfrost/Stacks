@@ -28,18 +28,12 @@ When you look into an abyss, the abyss also looks into you.
 		<link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon.png">
         <meta property="og:image" content="assets/img/thumbnail.png" />		
 		
-		
-		<!-- Main Scripts -->
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script><!-- Old Browser Support -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script src="assets/js/script.js"></script>
-        <script src="assets/js/custom.js"></script>
-		
+				
 		
 		<!-- Style -->
 		<link rel="stylesheet" href="assets/css/base.css">
         <link rel="stylesheet" href="assets/css/main.css">      
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.css">
 
 
     	
@@ -61,10 +55,10 @@ When you look into an abyss, the abyss also looks into you.
 	        
     </head>
 
-                 
+
 <!-- Body starts -->
-<body id="top" class="responsive" data-spy="scroll" style="opacity: 0;">
-    <div id="master-wrap">
+<body id="top" class="responsive" data-spy="scroll">
+    <div id="master-wrap" style="opacity: 0;">
 		
 		<!-- Header -->
                 <header class="navbar navbar-fixed-top">
@@ -103,23 +97,22 @@ When you look into an abyss, the abyss also looks into you.
                 </div>
             </div>
         </header><!-- /.navbar -->
-
-		<!-- Content -->
-		
-		<!-- Main hero unit for a primary marketing message or call to action -->
-        <section class="hero-unit jumbotron masthead">
+        
+        <!-- Main hero unit for a primary marketing message or call to action -->
+        <section class="hero-unit carousel-section jumbotron masthead">
     <div class="container-fluid">           
         <div class="row-fluid"> 
         
 		    <div class="span12">
 
-                    <div id="myCarousel" class="carousel slide">
+                    <div id="myCarousel" class="carousel slide carousel-fade">
               
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                             <li data-target="#myCarousel" data-slide-to="1"></li>
                             <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
                         </ol>
                        
                     <div class="carousel-inner">
@@ -147,6 +140,14 @@ When you look into an abyss, the abyss also looks into you.
                             </div>
              
                         </div><!-- /Slide3 -->                      
+
+                        <div class="item">
+                        
+                            <div class="bannerImage">
+                                <a href="#"><img src="assets/img/banner_04.jpg" alt=""></a>
+                            </div>
+             
+                        </div><!-- /Slide4 -->    
              
                     </div>
                     
@@ -161,22 +162,24 @@ When you look into an abyss, the abyss also looks into you.
 		    
         </div><!-- /.row -->     
     </div><!-- /.container -->  	
-</section><!-- /.hero-unit --> 	
-
-
-        <div id="main-content" class="container-fluid">
-
+</section><!-- /.hero-unit --> 
+        
+        <!-- Contents -->
+        <div id="main-content">		
+        
             <section id="about">
+    <div class="container-fluid">
     <div class="row-fluid">
-		<div class="span7"><h2>About Us</h2>
-			<p class="byline">Pellentesque ornare sem</p>
+
+		<div class="span7"><h2>About Stacks</h2>
+			<p class="byline">Pellentesque ornare sem vel scelerisque nisl consectetur et facilisis in, egestas eget quam.</p>
 					
 			<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>					
 					
-			<ul class="tick_box">
-			    <li><i class="icon-ok"></i> <strong>Pellentesque ornare</strong></li>
-				<li><i class="icon-ok"></i> <strong>Sem lacinia quam venenatis</strong></li>
-				<li><i class="icon-ok"></i> <strong>Vestibulum</strong></li>
+			<ul class="tick-box">
+			    <li><i class="icon-ok"></i> Pellentesque ornare</li>
+				<li><i class="icon-ok"></i> Sem lacinia quam venenatis</li>
+				<li><i class="icon-ok"></i> Vestibulum</li>
 			</ul>
 							
 		</div>		
@@ -184,12 +187,11 @@ When you look into an abyss, the abyss also looks into you.
 	    <div class="span5"><img src="assets/img/image_01.jpg" alt="" /></div>							
 			
     </div>
-</section>			
-			
-            <hr>
-
+    </div>
+</section>
+        
             <section id="services">
-            
+    <div class="container-fluid">
     <div class="row-fluid">
         <div class="span12">
             <h1 class="light text-centre">Services</h1>
@@ -218,66 +220,66 @@ When you look into an abyss, the abyss also looks into you.
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</p>
         </div>
     </div>    
-    
-</section>            
-            <hr> 
-            
-            <section id="pricing">
+    </div>
+</section>
+        
+            <section id="pricing" class="full-bg">
+    <div class="container-fluid"> 
       <h1 class="light text-center">Pricing</h1>
       <p class="byline text-center">Praesent commodo cursus magna</p>
       <p>&nbsp;</p>
        <div class="row-fluid">
 
         <div class="span3 pricelist well">
-          <div class="price_title"><h3>Starter</h3></div>
-          <ul class="tick_box fade_hover">
-			<li><i class="icon-ok"></i> Venenatis</li>
-			<li><i class="icon-ok"></i> Consectetur</li>
-			<li><i class="icon-ok"></i> Euismod</li>
+          <div class="price-title"><h3>Starter</h3></div>
+          <ul class="tick-box fade-hover">
+			<li><i class="icon-ok"></i> HTML5 support</li>
+			<li><i class="icon-ok"></i> CSS3 animation</li>
+			<li><i class="icon-ok"></i> Fast support</li>
           </ul>
-          <div class="price_number"><h4>$99.95</h4></div>
+          <div class="price-number"><h4>$99.95</h4></div>
           <button href="#" class="btn btn-success">Subscribe</button>
         </div>
 
         <div class="span3 pricelist well">
-          <div class="price_title"><h3>Basic</h3></div>
-          <ul class="tick_box fade_hover">
-			<li><i class="icon-ok"></i> Venenatis</li>
-			<li><i class="icon-ok"></i> Consectetur</li>
-			<li><i class="icon-ok"></i> Euismod</li>
+          <div class="price-title"><h3>Basic</h3></div>
+          <ul class="tick-box fade-hover">
+			<li><i class="icon-ok"></i> HTML5 support</li>
+			<li><i class="icon-ok"></i> CSS3 animation</li>
+			<li><i class="icon-ok"></i> Fast support</li>
           </ul>
-          <div class="price_number"><h4>$199.95</h4></div>
+          <div class="price-number"><h4>$199.95</h4></div>
           <button href="#" class="btn btn-success">Subscribe</button>
         </div>
 
         <div class="span3 pricelist well bestseller">
-          <div class="price_title"><h3>Professional</h3></div>
-          <ul class="tick_box fade_hover">
-			<li><i class="icon-ok"></i> Venenatis</li>
-			<li><i class="icon-ok"></i> Consectetur</li>
-			<li><i class="icon-ok"></i> Euismod</li>
+          <div class="price-title"><h3>Professional</h3></div>
+          <ul class="tick-box fade-hover">
+			<li><i class="icon-ok"></i> HTML5 support</li>
+			<li><i class="icon-ok"></i> CSS3 animation</li>
+			<li><i class="icon-ok"></i> Fast support</li>
           </ul>
-          <div class="price_number"><h4>$299.95</h4></div>
+          <div class="price-number"><h4>$299.95</h4></div>
           <button href="#" class="btn btn-danger">Subscribe</button>
         </div>
 
         <div class="span3 pricelist well">
-          <div class="price_title"><h3>Enterprise</h3></div>
-          <ul class="tick_box fade_hover">
-			<li><i class="icon-ok"></i> Venenatis</li>
-			<li><i class="icon-ok"></i> Consectetur</li>
-			<li><i class="icon-ok"></i> Euismod</li>
+          <div class="price-title"><h3>Enterprise</h3></div>
+          <ul class="tick-box fade-hover">
+			<li><i class="icon-ok"></i> HTML5 support</li>
+			<li><i class="icon-ok"></i> CSS3 animation</li>
+			<li><i class="icon-ok"></i> Fast support</li>
           </ul>
-          <div class="price_number"><h4>$699.95</h4></div>
+          <div class="price-number"><h4>$699.95</h4></div>
           <button href="#" class="btn btn-success">Subscribe</button>
         </div>
         
       </div>
+    </div>
 </section>      
-            <hr>             
-
+        
             <section id="team">
-
+    <div class="container-fluid"> 
     <h1 class="light text-center">Our Team</h1>
     <p class="byline text-center">Praesent commodo cursus magna</p>
 
@@ -361,10 +363,11 @@ When you look into an abyss, the abyss also looks into you.
     
         
     </div>
+    </div>
 </section>
-            <hr> 
-                     
+        
             <section id="contact">
+    <div class="container-fluid"> 
        <h2><i class="icon-comments-alt"></i> Got Questions?</h2>
 			<p class="byline">Help and support</p>
 					
@@ -372,52 +375,51 @@ When you look into an abyss, the abyss also looks into you.
 
             <div class="row-fluid">       
                
-				<div class="span7">
-
+				<div class="span7 map">
+					<span class="mapaddress">Bennelong Point Sydney NSW 2000 Australia</span>						
+				</div>						
+				
+				<div class="span5">			
+                	<div class="address">
 					
-					<div class="well">
 					<h3><strong>Address:</strong></h3>
 
 					<address>
-					Bennelong Point. Sydney NSW 2000, Australia					</address>
+					Bennelong Point Sydney NSW 2000 Australia
+					</address>
 
-                    <p>P.O.BOX: R239, Royal Exchange Sydney</p>
+                    <p>P.O.BOX: Royal Exchange Sydney</p>
 					<p>PH: 123-456-7890<br />
-					FAX: 123-456-7890					</p>		
+					FAX: 123-456-7890
+					</p>		
 					
 					<p>Please feel free to contact me for more information.<br>
 					Send us an e-mail by filling out the form below.</p>
 					
-					<h6><em>*Working hours: 9:00AM - 5:00PM (Monday to Friday)</em></h6>		
+					<h6><em></em></h6>		
                     
 					</div>
-											
-							
-				</div>						
-				
-				<div class="span5 map">			
-                <span class="mapaddress">Bennelong Point. Sydney NSW 2000, Australia</span>
 				</div>				
 		  </div>
 
            
            	<!-- Contact Form -->
 			<div class="row-fluid">
-				    <div class="span12 contact_box">
+				    <div class="span12 contact-box">
 				    
 				    <!-- Popup trigger -->   	
     				<div class="text-center">
-        				<button type="button" class="btn btn-danger btn-large" data-toggle="collapse" data-target="#contact_form">
+        				<button type="button" class="btn btn-danger btn-large" data-toggle="collapse" data-target="#contact-form">
         				<i class="icon-arrow-right"></i> <strong>SEND US AN ENQUIRY</strong>
         				</button>	
     				</div>		
 				    
-				    <div id="contact_form" class="collapse">    
-                        <div id="contact_form" class="ltr">
+				    <div id="contact-form" class="collapse">    
+                        <div id="contact-form" class="ltr">
 <hr>
 
 	<form id="form1" name="form1" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
-	action="https://simonalex.wufoo.com/forms/z7x3x5/#public">
+	action="">
 			
     	<ul>			
             <h3>Contact Us</h3>	
@@ -440,30 +442,70 @@ When you look into an abyss, the abyss also looks into you.
         	<li class="hide">
         	<label for="comment">Do Not Fill This Out</label>
         	<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-        	<input type="hidden" id="idstamp" name="idstamp" value="2K4l2NUNrKXsGwMdJkS37DEWU57UC2YJH05gY+V50og=" />
+        	<input type="hidden" id="idstamp" name="idstamp" value="" />
         	</li>			   	
     	</ul>
 	</form> 
 				
-</div><!-- /#contact_form -->
+</div><!-- /#contact-form -->
 
-								</div><!-- /#contact_form -->
+			
+					</div><!-- /#contact-form -->
 						
 				    </div>
 			</div>
            
-           
+   </div>        
 </section>
-	        </div> <!-- /#main-content-->   
         
+            <section id="partners" class="full-bg">
+    <div class="container-fluid"> 
+      <h1 class="light text-center">Our Partners</h1>
+      <p class="byline text-center">Cool People Who Support Us</p>
+      <p>&nbsp;</p>
+    <div class="row-fluid">
+    
+        <ul class="partner-list">
+            
+            <li>
+            <img src="assets/img/partners_01.jpg" alt="partners" >
+            </li>
+            
+            <li>
+            <img src="assets/img/partners_02.jpg" alt="partners" >
+            </li>
+            
+            <li>
+            <img src="assets/img/partners_03.jpg" alt="partners" >
+            </li>
+            
+            <li>
+            <img src="assets/img/partners_04.jpg" alt="partners" >
+            </li>
+            
+            <li>
+            <img src="assets/img/partners_05.jpg" alt="partners" >
+            </li>
+            
+            <li>
+            <img src="assets/img/partners_06.jpg" alt="partners" >
+            </li>
         
-        <!-- Footer -->
+        </ul>
+    
+        
+    </div>
+    </div>
+</section>
+
+        </div><!-- /.main-content -->
+
             <footer id="footer">          
           <section class="container-fluid">
 
 	  		<!-- Footer menu -->
-	  		<div class="footer_menu">
-      			<ul class="footer_menu_box">
+	  		<div class="footer-menu">
+      			<ul class="footer-menu-box">
       			  	<li><a href="https://github.com/redfrost/Stacks">Download</a></li>
                     <li><a onmouseover="this.style.cursor='pointer'" rel="popover" data-placement="top" data-content="Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -476,42 +518,52 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
       			  	<li><a href="index.html">Main</a></li>
       			  	<li><a href="index-static.html">Static</a></li>
       			  	<li><a href="index-fullwidth.html">Full-width</a></li>
-      			  	<li><a onmouseover="this.style.cursor='pointer'" rel="tooltip" data-placement="top" title="V1.4.1">Version</a></li>
+      			  	<li><a onmouseover="this.style.cursor='pointer'" rel="tooltip" data-placement="top" title="V1.4.2">Version</a></li>
       			  	                    
       			  	                    
       			</ul>
       		</div>
 
 	  		<!-- SNS Links -->
-      		<div class="sns_icons">
-      			<ul class="sns_icons_box">
+      		<div class="sns-icons">
+      			<ul class="sns-icons-box">
       				<li><a class="sns-link1" href="https://www.facebook.com/simonalexlim"><i class="icon-facebook"></i></a></li>
-      				<li><a class="sns-link2" href=""><i class="icon-twitter"></i></a></li>
-      				<li><a class="sns-link3" href=""><i class="icon-youtube"></i></a></li>
-      				<li><a class="sns-link4" href="#"><i class="icon-home"></i></a></li>
+      				<li><a class="sns-link2" href="#"><i class="icon-twitter"></i></a></li>
+      				<li><a class="sns-link3" href="#"><i class="icon-google-plus"></i></a></li>
+      				<li><a class="sns-link4" href="#"><i class="icon-youtube"></i></a></li>
 				</ul>
 			</div>
 
-		  <div class="copyright_box">
+
+          <div class="footer-note">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
+
+		  <div class="copyright-box">
 	          <p class="copyright">&copy; 2013 Stacks</p>
 	          <p class="maker">Redrost Design</p>
       	  </div>
           
-          <p class="back_top"><a href="#top"><i class="icon-arrow-up"></i> Back To Top</a></p>
+          <p class="back-top"><a href="#top"><i class="icon-arrow-up"></i> Back To Top</a></p>
           
           </section>
         </footer><!-- /#footer -->
         
 	</div><!-- /#master-wrap-->
 
-    <div class="bg"></div><!-- BG for iPad -->     
-	<div class="iosfix"></div><!-- Scroll with fixed menu fix -->
-	
-	
+
+        <!-- Preloader -->
+        <div id="preloader" class="progress progress-striped active" style="width:200px"><div class="bar" style="width: 100%;"></div></div>            
+        
+        <div class="bg"></div><!-- BG for iPad -->     
+
 	
 	    <!-- Modal Popup - Insert your code -->
 
-
+		<!-- Main Scripts -->
+		<script src="assets/js/modernizr.js"></script><!-- Old Browser Support -->
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/custom.js"></script>
+        
 
         <!-- Plugins -->
         <script type="text/javascript" src="assets/plugin/prefixfree.js"></script>
@@ -532,3 +584,5 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
       
     </body>
 </html>
+
+    
