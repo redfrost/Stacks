@@ -2,8 +2,7 @@
 name:         "Stacks"
 description:  "Simple and intuitive website boilerplate"
 url:          "http://redfrost.com/Stacks/"
-paginate:     8
-markdown:     rdiscount
+paginate:     8 
 permalink:    pretty
 pygments:     true
 
