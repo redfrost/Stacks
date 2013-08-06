@@ -56,7 +56,7 @@ hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 30px 0 20px
 
 /* Image */
 a img { border: none; }
-img { max-width: 100%; height:auto; -ms-interpolation-mode: bicubic; }
+img { width: 100%; max-width: 100%; height:auto; -ms-interpolation-mode: bicubic; }
 
 
 /* SELECTED TEXT */
@@ -438,7 +438,6 @@ h2, h3, h4 { color: #000000; }
 .tick-box {
     margin: 0 0 20px;
     padding: 0;
-    text-align: left;
 }
 .tick-box li {
 	list-style: none;
@@ -471,24 +470,52 @@ h2, h3, h4 { color: #000000; }
 }
 
 .pricelist.bestseller {  
-    border: 8px solid #304353 !important;
+    border: 10px solid #304353 !important;
     background: #fff;
--webkit-transform: scale(1.15);
-   -moz-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-     -o-transform: scale(1.15);        
-        transform: scale(1.15);
-     -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.15, M12=0, M21=0, M22=1.15, SizingMethod='auto expand')";
+    color: #333;
+    }
 
-   /* IE6 and 7 */ 
-   filter: progid:DXImageTransform.Microsoft.Matrix(
-            M11=1.15,
-            M12=0,
-            M21=0,
-            M22=1.15,
-        SizingMethod='auto expand');
-}
 
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+.price-title h3 {
+    border-bottom: 5px solid #DDDDDD;
+    font-size: 1rem;
+    }
+    .pricelist .tick-box li {
+       font-size: 0.75rem; 
+        }
+
+
+    #pricing .pricelist:first-child {
+         margin-left: 4% !important;
+        }
+        .pricelist {
+            margin-left: 0 !important;
+            text-align: center;
+            }
+    }
+
+
+@media (min-width: 768px) {    
+    .pricelist.bestseller {  
+        -webkit-transform: scale(1.15);
+           -moz-transform: scale(1.15);
+            -ms-transform: scale(1.15);
+             -o-transform: scale(1.15);        
+                transform: scale(1.15);
+             -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.15, M12=0, M21=0, M22=1.15, SizingMethod='auto expand')";
+        
+           /* IE6 and 7 */ 
+           filter: progid:DXImageTransform.Microsoft.Matrix(
+                    M11=1.15,
+                    M12=0,
+                    M21=0,
+                    M22=1.15,
+                SizingMethod='auto expand');
+                }
+    }
 
 
 /* Team section */
