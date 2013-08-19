@@ -380,7 +380,6 @@ h2, h3, h4 { color: #000000; }
     background-position: center center;
     background-size: cover;
     border-radius: 0 0 0 0;
-    box-shadow: 0 0 30px #444444 inset;
     color: #FFFFFF;
     line-height: 30px;
     margin-bottom: 30px;
@@ -424,7 +423,7 @@ h2, h3, h4 { color: #000000; }
 
 /* Carousel section */
 .hero-unit.carousel-section {
-    background-color: #304353;
+    background-color: ;
     background-image: none;
     }
 
@@ -741,7 +740,8 @@ footer {
 }
 
 /* CAROUSEL */
-#myCarousel { box-shadow:; }
+#myCarousel { box-shadow: 0 1px 5px rgba(0, 0, 0, 0.85), 0 0 1px rgba(255, 255, 255, 0.35) inset; }
+
 
 .banner #myCarousel-auto .item, 
 .banner #myCarousel .item {
@@ -800,11 +800,13 @@ footer {
     border: 0px !important;
 } 
 
+@media (min-width: 768px) { 
 .carousel-indicators {
     top: inherit !important;
     right: inherit !important;
     bottom: -20px !important; 
     margin-left: 47% !important;    
+    }
 }
 
 .carousel-indicators li {
@@ -812,9 +814,11 @@ footer {
     width: 10px;
     height: 10px;
     border-radius: 6px 6px 6px 6px;
-    border: 1px solid #FFFFFF;
-}
-
+    border: 0px solid #FFFFFF;
+    }
+    .carousel-indicators .active {
+        background: #14A8E5;
+        }
 
 @media (min-width: 1025px) { 
     .carousel-control, .control-box {
