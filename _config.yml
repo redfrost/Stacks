@@ -29,7 +29,7 @@ userInfo:
   pobox:        "Royal Exchange Sydney"
   phone:        "123-456-7890"
   fax:          "123-456-7890"
-  userEmail:    "info@redfrost.com"
+  userEmail:    ""
   workingHours:	"*Working hours: 9:00AM - 5:00PM (Monday to Friday)" 
 
 snsAccount:
