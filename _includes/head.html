@@ -29,12 +29,20 @@ When you look into an abyss, the abyss also looks into you.
         <meta property="og:image" content="assets/img/thumbnail.png" />		
 		
 				
-		
 		<!-- Style -->
 		<link rel="stylesheet" href="assets/css/base.css">
         <link rel="stylesheet" href="assets/css/main.css">      
 		<link rel="stylesheet" href="assets/css/font-awesome.css">
+		<script src="assets/js/modernizr.js"></script>
+		
 
+        {% if site.mobileApp == 'yes' %}
+    	<!-- Mobile View -->     
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        {% else %}
+        {% endif %}
+		
 
     	{% if site.typekitId == empty %}
     	{% else %}
@@ -42,15 +50,7 @@ When you look into an abyss, the abyss also looks into you.
         <script type="text/javascript" src="//use.typekit.net/{{site.typekitId}}.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     	{% endif %}
-        
-        
-        {% if site.mobileApp == 'yes' %}
-    	<!-- Mobile View -->     
-        <meta content="yes" name="apple-mobile-web-app-capable">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        {% else %}
-        {% endif %}
-        
+                
 
         <!-- Layout setting --> 
     	{% if site.layoutStyle == 'responsive' %}

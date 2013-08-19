@@ -95,7 +95,4 @@
 			});	
 
 		
-// Add your own		
-		
-
-		
+// Add your own	
