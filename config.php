@@ -23,7 +23,7 @@ $LOGO_PATH= "assets/img/logo.png";  // Set image URL
 
 //Options
 define('GOOGLE_ANALYTICS_ID', ''); // UA-XXXXX-Y
-define('TYPEKIT_ID', 'mng3caa'); // ADOBE TYPEKIT ID
+define('TYPEKIT_ID', ''); // ADOBE TYPEKIT ID
 define('WUFOO_LINK', ''); // WUFOO FORM LINK
 define('WUFOO_STAMP', ''); // WUFOO FORM ID
 define('FEATURE_VIDEO_URL', 'http://player.vimeo.com/video/56860648'); // Feature Video URL
