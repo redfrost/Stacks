@@ -44,8 +44,10 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
         
 	</div><!-- /#master-wrap-->
 
-    <div class="bg"></div><!-- BG for iPad -->     
-	<div class="iosfix"></div><!-- Scroll with fixed menu fix -->
+        <!-- Preloader -->
+        <div style="width:200px" class="progress progress-striped active" id="preloader"><div style="width: 100%;" class="bar">LOADING</div></div>           
+        
+        <div class="bg"></div><!-- BG for iPad -->  
 	
 	
 	

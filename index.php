@@ -3,9 +3,9 @@
 
 
     <!-- Body starts -->
-    <body id="top" class="<?=$Layoutstyle?>" data-spy="scroll" style="opacity: 0;">
+    <body id="top" class="<?=$Layoutstyle?>" data-spy="scroll">
 
-	<div id="master-wrap">
+	<div id="master-wrap" style="opacity: 0;">
 	
 		<!-- Header -->
        	<?php include("section/section-menu.php"); ?>

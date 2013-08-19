@@ -1,8 +1,12 @@
-// iPhone pull addressbar
-/mobile/i.test(navigator.userAgent) && !window.location.hash && setTimeout(function () {
-  window.scrollTo(0, 1);
-}, 1000);
-
+// Preloader - Hide content until the page is fully loaded
+    $(document).ready(function() {
+        $(window).load(function() {
+          // When the page has loaded
+            $("#preloader").fadeOut(); // fade out preloader   
+            $("#master-wrap").fadeTo("slow", 1); // fade in content
+	    });
+    });
+		
 
 
 // Smooth Scroll
@@ -91,15 +95,4 @@
 			});	
 
 		
-// Add your own		
-		
-	// Hide content until the page is fully loaded
-    $(document).ready(function() {
-        $(window).load(function() {
-          // When the page has loaded
-          $("body").fadeTo("slow", 1);
-        });
-    });
-		
-		
-		
+// Add your own	

@@ -1,9 +1,17 @@
+### 1.4.2: 20-Aug-2013
+* Stacks uses Jekyll now by default
+* Fixed bugs in Footer section
+* Preloader
+* Carousel section update
+
+
 ### 1.4.1: 29-June-2013
+* Jekyll beta version update
 * Bugfix
 
 
 ### 1.4: 24-June-2013
-* New look!
+* New look
 * Each sections now can use full-width background
 * Typekit support
 * Image based Logo
@@ -13,7 +21,6 @@
 
 ### 1.3.2: 7-June-2013
 * Static / Responsive switch
-* Font-awsome is now on CDN
 * Re-organised file structure
 
 
@@ -23,9 +30,9 @@
 
 
 ### 1.3: 28-April-2013
-* Carousel
-* Slidingbox
-* Pricing
+* Carousel section
+* Slidingbox section
+* Pricing section
 * Gallery (Portfolio)
 
 
@@ -48,7 +55,7 @@
 * Body class: static / responsive
 * Assets folder (css, font, img, js)
 * main.js renamed -> custom.js
-* Vendor js folder is removed
+* Vendor js folder -> removed
 * Custom testing font is now removed
 * Removed unused CSS
 
@@ -67,7 +74,6 @@
 
 ### 1.11: 07-Jan-2013
 * Style Enhancement
-* Korean page + Style testing
 * Footer menu change
 * Icon change
 * License doc
@@ -85,6 +91,3 @@
 
 ### 1.0: 05-Jan-2013
 * Bootstrap 2.2.2 (custom modified + bug patch)
-
-
-
