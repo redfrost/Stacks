@@ -12,10 +12,12 @@ When you look into an abyss, the abyss also looks into you.
      
     	<!-- Site info -->      
         <title>Stacks</title>   
-        <meta property="og:url" content="http://redfrost.com/Stacks/" />
+        <meta property="og:title" content="Stacks" />
+		<meta property="og:url" content="http://redfrost.com/Stacks" />
         <meta property="og:description" name="description" content="Simple and intuitive website boilerplate" />
-        <meta property="fb:app_id" content="" />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="website" />		
+		
+        
         
         <meta name="author" content="Redrost">
         <meta name="designer" content="Redrost Design">
@@ -26,27 +28,30 @@ When you look into an abyss, the abyss also looks into you.
 		<!-- Icons -->
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon.png">
-        <meta property="og:image" content="assets/img/thumbnail.png" />		
+        <meta property="og:image" content="http://redfrost.com/Stacks/assets/img/thumbnail.png" />		
 		
 				
-		
 		<!-- Style -->
 		<link rel="stylesheet" href="assets/css/base.css">
         <link rel="stylesheet" href="assets/css/main.css">      
 		<link rel="stylesheet" href="assets/css/font-awesome.css">
+		<script src="assets/js/modernizr.js"></script>
+		
 
 
-    	
-    	<!-- Typekit -->
-        <script type="text/javascript" src="//use.typekit.net/mng3caa.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    	
-        
 
     	<!-- Mobile View -->     
     	<meta name="viewport" content="width=1025">
     	
 	        
+    	
+
+
+		<!-- Search Engine Indexing -->     
+		
+        <meta name="robots" content="noindex, nofollow">
+		
+    
     </head>
 
 
@@ -448,11 +453,11 @@ When you look into an abyss, the abyss also looks into you.
 	  		<div class="footer-menu">
       			<ul class="footer-menu-box">
       			  	<li><a href="https://github.com/redfrost/Stacks">Download</a></li>
-                    <li><a onmouseover="this.style.cursor='pointer'" rel="popover" data-placement="top" data-content="Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+                    <li><a onmouseover="this.style.cursor='pointer'" rel="popover" data-placement="top" title="Copyright &copy; 2013 Redfrost" data-content="Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE." title="Copyright &copy; 2013 Redfrost">License</a></li>
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.">License</a></li>
 
       			  	
       			  	<li><a href="index-carousel.html">Carousel</a></li>
@@ -483,7 +488,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 	          <p class="maker">Redrost Design</p>
       	  </div>
           
-          <p class="back-top"><a href="#top"><i class="icon-arrow-up"></i> Back To Top</a></p>
+          <p class="back-top"><a href="#top"><i class="icon-chevron-up"></i> Back To Top</a></p>
           
           </section>
         </footer><!-- /#footer -->
@@ -492,7 +497,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 
         <!-- Preloader -->
-        <div style="width:200px" class="progress progress-striped active" id="preloader"><div style="width: 100%;" class="bar">LOADING</div></div>            
+        <div style="width:200px" class="progress progress-striped active" id="preloader"><div style="width: 100%;" class="bar">LOADING</div></div>           
         
         <div class="bg"></div><!-- BG for iPad -->     
 
@@ -500,7 +505,6 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 	    <!-- Modal Popup - Insert your code -->
 
 		<!-- Main Scripts -->
-		<script src="assets/js/modernizr.js"></script><!-- Old Browser Support -->
         <script src="assets/js/jquery.js"></script>
         <script src="assets/js/script.js"></script>
         <script src="assets/js/custom.js"></script>
