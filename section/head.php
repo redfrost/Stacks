@@ -12,11 +12,14 @@ When you look into an abyss, the abyss also looks into you.
      
     	<!-- Site info -->      
         <title><?=$SiteTitle?></title>   
+        <meta property="og:title" content="<?=$SiteTitle?>" />
         <meta property="og:site_name" content="<?=$SiteTitle?>" />
         <meta property="og:description" name="description" content="<?=$Description?>" />
-        <meta property="fb:app_id" content="<?=$fbAppID?>" />
-        <meta property="og:type" content="website" />
-        
+        <meta property="og:url" content="<?php echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" />
+        <?php if (fbAppID) : ?>
+        <meta property="fb:app_id" content="<?php echo fbAppID; ?>" />
+        <?php endif; ?>
+
         <meta name="author" content="<?=$Author?>">
         <meta name="designer" content="<?=$Designer?>">        
         <meta name="dcterms.rightsHolder" content="<?=$Copyright?>">
@@ -26,7 +29,8 @@ When you look into an abyss, the abyss also looks into you.
 		<!-- Icons -->
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon.png">
-        <meta property="og:image" content="assets/img/thumbnail.png" />		
+        <meta property="og:image" content="<?php echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>assets/img/thumbnail.png" />		
+	
 		
 		<!-- Main Scripts -->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script><!-- Old Browser Support -->
@@ -62,5 +66,11 @@ When you look into an abyss, the abyss also looks into you.
     <?php } ?>
 
 
-        
+		<!-- Search Engine Indexing -->     
+    <?php if ($siteIndexing == "yes") { ?>
+        <meta name="robots" content="index, follow">
+        <?php } else { ?>
+        <meta name="robots" content="noindex, nofollow">
+    <?php } ?>
+    
     </head>

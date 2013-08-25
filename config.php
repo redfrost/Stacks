@@ -7,7 +7,10 @@ $Author= "Redfrost"; // Site owner
 $Designer= "Simonalex"; // Site designer or developer
 $Copyright= "Redfrost"; //Search keywords
 $Keywords= ""; //Search keywords
-$fbAppID= ""; //Facebook App ID
+
+
+// Search Engine: index the whole website
+$siteIndexing= "no";
 
 
 //Layout Setting
@@ -20,13 +23,13 @@ $LOGO_TYPE= "image";  // image or text
 $LOGO_PATH= "assets/img/logo.png";  // Set image URL
 
 
-
 //Options
 define('GOOGLE_ANALYTICS_ID', ''); // UA-XXXXX-Y
 define('TYPEKIT_ID', ''); // ADOBE TYPEKIT ID
 define('WUFOO_LINK', ''); // WUFOO FORM LINK
 define('WUFOO_STAMP', ''); // WUFOO FORM ID
 define('FEATURE_VIDEO_URL', 'http://player.vimeo.com/video/56860648'); // Feature Video URL
+define('fbAppID', ''); //Facebook App ID
 
 
 //User Information

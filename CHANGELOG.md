@@ -1,3 +1,9 @@
+### 1.4.2a: 26-Aug-2013
+* Updated Open Graph header
+* $fbAppID -> define('fbAppID','')
+* .htaccess
+ 
+ 
 ### 1.4.2: 20-Aug-2013
 * Stacks uses Jekyll now by default
 * Fixed bugs in Footer section
