@@ -4,7 +4,7 @@
 $SiteTitle= "Stacks"; // Website title
 $Description= "Simple and intuitive website boilerplate"; // Website description 
 $Author= "Redfrost"; // Site owner
-$Designer= "Massivesound"; // Site designer or developer
+$Designer= "Simonalex"; // Site designer or developer
 $Copyright= "Redfrost"; //Search keywords
 $Keywords= ""; //Search keywords
 $fbAppID= ""; //Facebook App ID
