@@ -1,7 +1,7 @@
 # Default setting
 name:         "Stacks"
 description:  "Simple and intuitive website boilerplate"
-url:          "http://redfrost.com/Stacks"
+url:          "http://redfrost.com/Stacks/"
 markdown:     rdiscount
 pygments:     true
 
