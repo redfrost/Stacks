@@ -12,10 +12,12 @@ When you look into an abyss, the abyss also looks into you.
      
     	<!-- Site info -->      
         <title>Stacks</title>   
-        <meta property="og:url" content="http://redfrost.com/Stacks/" />
+        <meta property="og:title" content="Stacks" />
+		<meta property="og:url" content="http://redfrost.com/Stacks" />
         <meta property="og:description" name="description" content="Simple and intuitive website boilerplate" />
-        <meta property="fb:app_id" content="" />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="website" />		
+		
+        
         
         <meta name="author" content="Redrost">
         <meta name="designer" content="Redrost Design">
@@ -26,7 +28,7 @@ When you look into an abyss, the abyss also looks into you.
 		<!-- Icons -->
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon.png">
-        <meta property="og:image" content="assets/img/thumbnail.png" />		
+        <meta property="og:image" content="http://redfrost.com/Stacks/assets/img/thumbnail.png" />		
 		
 				
 		<!-- Style -->
@@ -48,6 +50,9 @@ When you look into an abyss, the abyss also looks into you.
         <script type="text/javascript" src="//use.typekit.net/mng3caa.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     	
+        
+    	
+    	
                 
 
         <!-- Layout setting --> 
@@ -59,8 +64,14 @@ When you look into an abyss, the abyss also looks into you.
     	.responsive .container-fluid { margin: auto; max-width: 1100px; }
     	</style>
     	
-	        
-    </head>
+
+
+		<!-- Search Engine Indexing -->     
+		
+        <meta name="robots" content="noindex, nofollow">
+		
+    
+</head>
 
 
 <!-- Body starts -->
@@ -81,7 +92,7 @@ When you look into an abyss, the abyss also looks into you.
                     <!-- Logo Image -->
                                 
                     <h1>
-                    <a class="brand logo-image" href="http://redfrost.com/Stacks/">
+                    <a class="brand logo-image" href="http://redfrost.com/Stacks">
         			<img alt="Stacks" src="assets/img/logo.png">
         			</a>
         			</h1>          
@@ -529,7 +540,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
         <!-- Tracking code -->          
         <script>
-            var _gaq=[['_setAccount','UA-41958063-3'],['_trackPageview']];
+            var _gaq=[['_setAccount',''],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src='//www.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
