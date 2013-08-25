@@ -12,10 +12,14 @@ When you look into an abyss, the abyss also looks into you.
      
     	<!-- Site info -->      
         <title>{{site.name}}</title>   
-        <meta property="og:url" content="{{site.url}}" />
+        <meta property="og:title" content="{{site.name}}" />
+		<meta property="og:url" content="{{site.url}}" />
         <meta property="og:description" name="description" content="{{site.description}}" />
-        <meta property="fb:app_id" content="{{site.fbAppID}}" />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="website" />		
+		{% if site.fbAppID == 'no' %}
+        {% else %}
+		<meta property="fb:app_id" content="{{site.fbAppID}}" />
+        {% endif %}
         
         <meta name="author" content="{{site.author}}">
         <meta name="designer" content="{{site.designer}}">
@@ -26,7 +30,7 @@ When you look into an abyss, the abyss also looks into you.
 		<!-- Icons -->
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon.png">
-        <meta property="og:image" content="assets/img/thumbnail.png" />		
+        <meta property="og:image" content="{{site.url}}/assets/img/thumbnail.png" />		
 		
 				
 		<!-- Style -->
@@ -63,5 +67,13 @@ When you look into an abyss, the abyss also looks into you.
     	{% else %}
     	<meta name="viewport" content="width=1025">
     	{% endif %}
-	        
-    </head>
+
+
+		<!-- Search Engine Indexing -->     
+		{% if site.siteIndexing == 'yes' %}
+        <meta name="robots" content="index, follow">
+        {% else %}
+        <meta name="robots" content="noindex, nofollow">
+		{% endif %}
+    
+</head>
