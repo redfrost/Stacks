@@ -1,0 +1,27 @@
+/* Team section */
+#team {
+	background: #f0f0f0;
+	padding: 40px 0 60px;
+}
+
+.team-list {
+    text-align: center;
+    margin: 0 0 10px;
+	padding-left: 0;
+}
+.team-list li { 
+    display: inline-block; 
+    margin: 15px;
+}
+
+.team-list li a {
+    display: block;
+    height: 120px;
+    width: 120px;
+}
+
+.team-list img {
+    width: 120px;
+    border-radius: 60px 60px 60px 60px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}

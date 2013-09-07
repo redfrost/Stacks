@@ -1,0 +1,15 @@
+.btn { border-radius: 0px !important; }
+.btn-large { padding: 10px 30px !important; font-size: 1.13rem !important; }
+.btn-default { border-bottom: 4px solid #EBEBEB !important; border-left: 0px !important;  border-right: 0px !important; } 
+.btn-primary { border-bottom: 4px solid #3276B1 !important; border-left: 0px !important;  border-right: 0px !important; } 
+.btn-success { border-bottom: 4px solid #47A447 !important; border-left: 0px !important;  border-right: 0px !important; } 
+.btn-info    { border-bottom: 4px solid #39B3D7 !important; border-left: 0px !important;  border-right: 0px !important; } 
+.btn-warning { border-bottom: 4px solid #ED9C28 !important; border-left: 0px !important;  border-right: 0px !important; }
+.btn-danger  { border-bottom: 4px solid #c0392b !important; border-left: 0px !important;  border-right: 0px !important; } 
+
+
+@media (max-width: 480px){	
+	.btn-large {
+    	padding: 10px !important;
+		}
+}

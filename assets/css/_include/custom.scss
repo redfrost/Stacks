@@ -1,0 +1,16 @@
+/* Popover */
+.popover {
+    max-width: 90%;
+}
+
+/* TOOLTIP */
+.tooltip {
+	font-size: 0.94rem;
+	line-height: 1.25rem;
+}
+
+.tooltip-inner { /* space inside tooltip */
+	max-width: 200px;
+	padding: 10px 14px;
+	border-radius: 0px;
+}

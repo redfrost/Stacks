@@ -1,9 +1,9 @@
         <footer id="footer">          
-          <section class="{{site.containerClass}}">
+          <section class="container">
 
 	  		<!-- Footer menu -->
-	  		<div class="footer-menu">
-      			<ul class="footer-menu-box">
+	  		<div class="footer-menu pull-left">
+      			<ul class="footer-menu-box list-inline">
       			  	<li><a href="https://github.com/redfrost/Stacks">Download</a></li>
                     <li><a onmouseover="this.style.cursor='pointer'" rel="popover" data-placement="top" title="Copyright &copy; 2013 Redfrost" data-content="Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -12,11 +12,10 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.">License</a></li>
 
       			  	
-      			  	<li><a href="index-carousel.html">Carousel</a></li>
       			  	<li><a href="index.html">Main</a></li>
-      			  	<li><a href="index-static.html">Static</a></li>
-      			  	<li><a href="index-fullwidth.html">Full-width</a></li>
-      			  	<li><a onmouseover="this.style.cursor='pointer'" rel="tooltip" data-placement="top" title="V1.4.2">Version</a></li>
+      			  	<li><a href="index-carousel.html">Carousel</a></li>
+      			  	<li><a href="1.4/index.html">Bootstrap2</a></li>
+      			  	<li><a onmouseover="this.style.cursor='pointer'" rel="tooltip" data-placement="top" title="{{site.versionInfo}}">Version</a></li>
       			  	                    
       			  	                    
       			</ul>
@@ -24,7 +23,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 	  		<!-- SNS Links -->
       		<div class="sns-icons">
-      			<ul class="sns-icons-box">
+      			<ul class="sns-icons-box list-inline">
       				<li><a class="sns-link1" href="{{site.snsAccount.facebook}}"><i class="icon-facebook"></i></a></li>
       				<li><a class="sns-link2" href="{{site.snsAccount.twitter}}"><i class="icon-twitter"></i></a></li>
       				<li><a class="sns-link3" href="{{site.snsAccount.googleplus}}"><i class="icon-google-plus"></i></a></li>
@@ -33,11 +32,11 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 			</div>
 
 
-          <div class="footer-note">{{site.footerNote}}</div>
+          <div class="footer-note pull-left">{{site.footerNote}}</div>
 
 		  <div class="copyright-box">
 	          <p class="copyright">&copy; {{site.time | date:"%Y"}} {{site.name}}</p>
-	          <p class="maker">{{site.designer}}</p>
+	          <p class="maker"><a href="{{site.designerURL}}">{{site.designer}}</a></p>
       	  </div>
           
           <p class="back-top"><a href="#top"><i class="icon-chevron-up"></i> Back To Top</a></p>
@@ -48,8 +47,13 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 	</div><!-- /#master-wrap-->
 
 
-        <!-- Preloader -->
-        <div style="width:200px" class="progress progress-striped active" id="preloader"><div style="width: 100%;" class="bar">LOADING</div></div>           
+	{% if site.preLoader == 'no' %}
+    {% else %}
+    <!-- Preloader -->
+    <div style="width:200px" class="progress progress-striped active" id="preloader"><div style="width: 100%;" class="progress-bar progress-bar-success bar">LOADING</div></div>  	
+    {% endif %}
+	
+         
         
         <div class="bg"></div><!-- BG for iPad -->     
 
@@ -63,8 +67,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
         
 
         <!-- Plugins -->
-        <script type="text/javascript" src="assets/plugin/prefixfree.js"></script>
-        <script type="text/javascript" src="assets/plugin/plugins.js"></script><!-- Smooth Scroll -->
+        <script type="text/javascript" src="assets/plugin/plugins.js"></script><!-- Load Plugins -->
         <script type="text/javascript" src="assets/plugin/wufoo.js"></script><!-- Form control -->
     	<script type="text/javascript" src="assets/plugin/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
     	<script type="text/javascript" src="assets/plugin/fancybox/jquery.fancybox-1.3.4.pack.js"></script>

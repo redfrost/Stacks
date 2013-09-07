@@ -4,25 +4,30 @@ description:  "Simple and intuitive website boilerplate"
 url:          "http://redfrost.com/Stacks/"
 markdown:     rdiscount
 pygments:     true
+sass:
+  syntax: scss # scss|sass
+  style:  expanded # nested|expanded|compact|compressed	
 
 
 # Meta
 author:       "Redrost"
 designer:     "Redrost Design"
+designerURL:  "http://redfrost.com/"
 copyright:    "Redfrost Design"
-fbAppID:      "no"
+fbAppID:      "no" # ID|no
 keywords:     "Sexyback"
+versionInfo:  "1.5.0"
 
 
 # Site setting
-layoutStyle:    "responsive"
-logoType:       "image"
-contentWidth:   "1100px"
-containerClass: "container-fluid"
-rowClass:       "row-fluid"
+layoutStyle:    "responsive" # responsive|static
+logoType:       "text" # text|image
+contentWidth:   ""
 footerNote:     "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
-mobileApp:		"yes"
-siteIndexing:   "no"
+mobileApp:		"yes" # yes|no
+preLoader:	    "no"  # yes|no
+siteIndexing:   "no"  # yes|no
+
 
 userInfo:
   businessName: "Opera house"
@@ -31,7 +36,8 @@ userInfo:
   phone:        "123-456-7890"
   fax:          "123-456-7890"
   userEmail:    ""
-  workingHours:	"*Working hours: 9:00AM - 5:00PM (Monday to Friday)" 
+  workingHours:	"Working hours: 9:00AM - 5:00PM (Monday to Friday)" 
+
 
 snsAccount:
   facebook:     "https://www.facebook.com/simonalexlim"
@@ -44,7 +50,7 @@ snsAccount:
 # Add-on
 typekitId:    ""
 formLink:     ""
-formId:       ""
+formId:       "" # wufoo form ID
 disqus:       ""
-trackingId:   ""
+trackingId:   "" # Google analytics ID
 videoLink:    "http://player.vimeo.com/video/56860648"

@@ -1,0 +1,27 @@
+#contact { 
+	background: #475869; 
+	padding: 40px 0 60px;
+    color: #ECF0F1;
+}
+
+.contact-box {
+    background: #34495E;
+    border: 2px dashed #888888;
+    margin: 20px 0;
+    padding: 28px;
+}
+
+#contact-form textarea {
+     width: 90%;
+}
+
+#contact-form li {
+     list-style: none outside none;
+	 margin: 18px 0;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 4px 8px;
+}
+
