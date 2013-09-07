@@ -1,0 +1,86 @@
+#footer { 
+	background-color: #34495E; 
+	color: #ECF0F1; 
+	padding: 30px 0 40px;
+	}
+
+#footer a,
+#footer a:active {
+	color: #ECF0F1;
+	opacity: 1;
+	}	
+	#footer a:hover {
+		opacity: 0.8;
+		}
+
+
+.footer-menu-box {
+	text-transform: uppercase;
+}
+
+.footer-note {
+    border-top: 1px solid;
+    color: #BDC3C7;
+    font-size: 0.88rem;
+    margin-top: 12px;
+    padding: 16px 0;
+}	
+	
+	
+	
+/* License box */
+.footer-menu-box .popover {
+    width: 400px;
+}
+
+.footer-menu-box .popover-title {
+	color: #666;
+}
+.footer-menu-box .popover-content {
+    font-size: 0.63rem;
+    line-height: 1rem;
+    color: #666;
+}	
+
+
+/* SNS Links */
+.sns-icons { 
+	width: 30%; 
+	float: left; 
+	}
+    .sns-icons-box { 
+        float: right; 
+        margin-top: -6px; 
+        }
+        .sns-icons-box li {
+            display: inline-block;
+            line-height: 20px;
+            list-style: none outside none;
+            padding: 0 0 0 10px;
+            }
+            .sns-icons-box li a {
+                color: #fff;
+                font-size: 1.5rem;
+                }
+				.sns-icons-box li:hover {
+                	@include transform(scale(1.2));
+					}
+
+/* Copyright */
+.copyright-box {
+    line-height: 1rem;
+    }
+    .copyright {
+    	float: left;
+    	margin: 14px 0;
+        }
+
+/* Production */
+.maker {
+    border-left: 1px solid #ccc;
+    line-height: 1;
+    float: left;
+    padding-left: 6px;
+    width: 200px;
+    margin: 14px 0 0 6px;
+    }

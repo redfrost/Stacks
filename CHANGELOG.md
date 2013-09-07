@@ -1,3 +1,9 @@
+### 1.5: 07-Sep-2013
+* Bootstrap3 support
+* SASS & Bourbon support
+* Prefixfree.js: removed
+
+
 ### 1.4.2a: 26-Aug-2013
 * Updated Open Graph header
 * Indexing option

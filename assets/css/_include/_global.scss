@@ -1,0 +1,121 @@
+html {
+  font-size: 100% !important;
+}
+
+/* Link */
+a {
+    color: #0088CC;
+    text-decoration: none;
+    }
+    a:hover, a:focus {
+        color: #005580;
+        text-decoration: none !important;
+	    }
+        /* Remove Firefox selection dot */
+        a, a:focus, a:active, a:hover, object, embed { outline: none; }
+        :-moz-any-link:focus { outline: none; }
+        input::-moz-focus-inner { border: 0; }
+        :focus { outline: 0; }
+
+del { color: #ccc;}
+
+.fade-hover { opacity: 1; }
+.fade-hover:hover { opacity: 0.8; }
+
+/* Firefox opacity jog fix */
+.fade-hover img   { background: #fff; } 		
+
+
+/* Line */
+hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 30px 0 20px; height: 0; }
+
+
+/* Image */
+a img { border: none; }
+img { width: 100%; max-width: 100%; height:auto; -ms-interpolation-mode: bicubic;}
+
+
+/* SELECTED TEXT */
+::selection { background: #ff5e99; color: #FFFFFF; }
+::-moz-selection { background: #ff5e99; color: #FFFFFF; }
+
+
+/* Position */
+.left { float: left; } 
+.right { float: right; } 
+.text-left   { text-align: left; }
+.text-right  { text-align: right; }
+.text-center, .text-centre { text-align: center; }
+.hide        { display: none; }
+.highlight   { background: #ff0; }
+div { word-wrap:break-word;}
+
+
+/* clearfloat */
+.clear, .clearfloat {
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+
+
+/* Grid Styles */
+.panel  {
+	margin-bottom: 6px;
+	padding-top: 6px; 
+	padding-bottom: 6px;
+    background: #efefef ; /* Old */	
+    @include linear-gradient(top, #F9F9F9, #F0F0F0);
+    box-shadow: inset 0 0 1px #FFFFFF, inset 0 0 1px #FFFFFF, inset 0 1px 0px #FFFFFF, 0px 1px 4px #888;
+	}
+	.panel *,.gap * { padding:0 14px; }
+
+	/* Grid Test Colors */
+	.show-grid [class*="span"] {
+	   background-color: #EEEEEE;
+	   border-radius: 3px 3px 3px 3px;
+	   line-height: 30px;
+	   min-height: 30px;
+	   text-align: center;
+	}
+	.show-grid {
+	   margin-bottom: 20px;
+	   margin-top: 10px;
+		}
+
+
+/* Preloader */
+#preloader {
+	width:200px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-100px 0 0 -100px;
+   
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden; 
+    -webkit-transform: translateZ(0);
+    }
+    #preloader,.bar {
+        border-radius: 10px !important;
+        }
+
+
+/* =============================================================================
+   FIX
+============================================================================= */
+
+/* IE Flicker fix */
+html { filter: expression(document.execCommand("BackgroundImageCache", false, true)); }
+
+/* Thumbnails box margin left fix */
+.thumbnails { margin-left: 0; } 
+
+/* Bootstrap Fix Lines on Button (Retina) */
+.btn:hover { background-position: inherit; }
+
+/* Responsive Google Map */
+.map iframe { width: 100% !important; }
+
+

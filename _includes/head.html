@@ -30,7 +30,7 @@ When you look into an abyss, the abyss also looks into you.
 		<!-- Icons -->
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon.png">
-        <meta property="og:image" content="{{site.url}}/assets/img/thumbnail.png" />		
+        <meta property="og:image" content="{{site.url}}assets/img/thumbnail.png" />		
 		
 				
 		<!-- Style -->
@@ -59,10 +59,8 @@ When you look into an abyss, the abyss also looks into you.
         <!-- Layout setting --> 
     	{% if site.layoutStyle == 'responsive' %}
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<link rel="stylesheet" href="assets/css/responsive.css">
-        <link rel="stylesheet" href="assets/css/responsive-addon.css">
     	<style type="text/css">
-    	.responsive .container-fluid { margin: auto; max-width: {{site.contentWidth}}; }
+    	.responsive .container { margin: auto; max-width: {{site.contentWidth}}; }
     	</style>
     	{% else %}
     	<meta name="viewport" content="width=1025">
