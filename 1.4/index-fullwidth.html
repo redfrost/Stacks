@@ -39,30 +39,27 @@ When you look into an abyss, the abyss also looks into you.
 		
 
 
-
     	<!-- Mobile View -->     
-    	<meta name="viewport" content="width=1025">
+    	
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/responsive-addon.css">
+    	<style type="text/css">
+    	.responsive .container-fluid { margin: auto; max-width: 100%; }
+    	</style>
     	
 	        
-    	
-
-
-		<!-- Search Engine Indexing -->     
-		
-        <meta name="robots" content="noindex, nofollow">
-		
-    
     </head>
 
 
 <!-- Body starts -->
-<body id="top" class="static" data-spy="scroll">
+<body id="top" class="responsive" data-spy="scroll">
     <div id="master-wrap" style="opacity: 0;">
 		
 		<!-- Header -->
                 <header class="navbar navbar-fixed-top">
             <div class="navbar-inner">
-                <div class="container">
+                <div class="container-fluid">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -73,7 +70,7 @@ When you look into an abyss, the abyss also looks into you.
                     <!-- Logo Image -->
                                 
                     <h1>
-                    <a class="brand logo-image" href="http://redfrost.com/Stacks/">
+                    <a class="brand logo-image" href="http://redfrost.com/Stacks">
         			<img alt="Stacks" src="assets/img/logo.png">
         			</a>
         			</h1>          
@@ -99,8 +96,8 @@ When you look into an abyss, the abyss also looks into you.
         
         <!-- Main hero unit for a primary marketing message or call to action -->
         <section class="hero-unit jumbotron masthead">
-    <div class="container">           
-		<div class="row"> 
+    <div class="container-fluid">           
+		<div class="row-fluid"> 
 			<div class="span12">  
 	            <h1>Simple <span class="goudy">&amp;</span> <span class="lighter">Intuitive</span></h1>
 	            <p class="light">Minimalistic Website Theme Created for<br>Creative individuals and Startups</p>
@@ -114,8 +111,8 @@ When you look into an abyss, the abyss also looks into you.
         <div id="main-content">		
         
             <section id="about">
-    <div class="container">
-    <div class="row">
+    <div class="container-fluid">
+    <div class="row-fluid">
 
 		<div class="span7"><h2>About Stacks</h2>
 			<p class="byline">Pellentesque ornare sem vel scelerisque nisl consectetur et facilisis in, egestas eget quam.</p>
@@ -137,8 +134,8 @@ When you look into an abyss, the abyss also looks into you.
 </section>
         
             <section id="services">
-    <div class="container">
-    <div class="row">
+    <div class="container-fluid">
+    <div class="row-fluid">
         <div class="span12">
             <h1 class="light text-centre">Services</h1>
 			    <p class="byline text-centre">Pellentesque ornare sem</p>
@@ -147,7 +144,7 @@ When you look into an abyss, the abyss also looks into you.
         </div>            
     </div>
             
-	<div class="row">            
+	<div class="row-fluid">            
         <div class="span4">
             <img src="assets/img/image_02.jpg" alt="" />
             <h2>Inspirational Word</h2>
@@ -170,11 +167,11 @@ When you look into an abyss, the abyss also looks into you.
 </section>
         
             <section id="pricing" class="full-bg">
-    <div class="container"> 
+    <div class="container-fluid"> 
       <h1 class="light text-center">Pricing</h1>
       <p class="byline text-center">Praesent commodo cursus magna</p>
       <p>&nbsp;</p>
-       <div class="row">
+       <div class="row-fluid">
 
         <div class="span3 pricelist well">
           <div class="price-title"><h3>Starter</h3></div>
@@ -225,11 +222,11 @@ When you look into an abyss, the abyss also looks into you.
 </section>      
         
             <section id="team">
-    <div class="container"> 
+    <div class="container-fluid"> 
     <h1 class="light text-center">Our Team</h1>
     <p class="byline text-center">Praesent commodo cursus magna</p>
 
-    <div class="row">
+    <div class="row-fluid">
     
         <ul class="team-list">
         
@@ -313,13 +310,13 @@ When you look into an abyss, the abyss also looks into you.
 </section>
         
             <section id="contact">
-    <div class="container"> 
+    <div class="container-fluid"> 
        <h2><i class="icon-comments-alt"></i> Got Questions?</h2>
 			<p class="byline">Help and support</p>
 					
 			<p>The Very Best Way To Get in Touch With Us.</p>
 
-            <div class="row">       
+            <div class="row-fluid">       
                
 				<div class="span7 map">
 					<span class="mapaddress">Bennelong Point Sydney NSW 2000 Australia</span>						
@@ -350,7 +347,7 @@ When you look into an abyss, the abyss also looks into you.
 
            
            	<!-- Contact Form -->
-			<div class="row">
+			<div class="row-fluid">
 				    <div class="span12 contact-box">
 				    
 				    <!-- Popup trigger -->   	
@@ -405,11 +402,11 @@ When you look into an abyss, the abyss also looks into you.
 </section>
         
             <section id="partners" class="full-bg">
-    <div class="container"> 
+    <div class="container-fluid"> 
       <h1 class="light text-center">Our Partners</h1>
       <p class="byline text-center">Cool People Who Support Us</p>
       <p>&nbsp;</p>
-    <div class="row">
+    <div class="row-fluid">
     
         <ul class="partner-list">
             
@@ -447,7 +444,7 @@ When you look into an abyss, the abyss also looks into you.
         </div><!-- /.main-content -->
 
             <footer id="footer">          
-          <section class="container">
+          <section class="container-fluid">
 
 	  		<!-- Footer menu -->
 	  		<div class="footer-menu">
@@ -460,11 +457,12 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.">License</a></li>
 
       			  	
-      			  	<li><a href="index-carousel.html">Carousel</a></li>
-      			  	<li><a href="index.html">Main</a></li>
-      			  	<li><a href="index-static.html">Static</a></li>
-      			  	<li><a href="index-fullwidth.html">Full-width</a></li>
-      			  	<li><a onmouseover="this.style.cursor='pointer'" rel="tooltip" data-placement="top" title="V1.4.2">Version</a></li>
+					<li><a href="index.html">Main</a></li>
+					<li><a href="index-carousel.html">Carousel</a></li>
+					<li><a href="index-fullwidth.html">Full-width</a></li>
+					<li><a href="../index.html">Bootstrap3</a></li>
+					<li><a onmouseover="this.style.cursor='pointer'" rel="tooltip" data-placement="top" title="V1.4.2">Version</a></li>
+
       			  	                    
       			  	                    
       			</ul>
