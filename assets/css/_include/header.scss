@@ -97,7 +97,8 @@ ul.navbar-nav {
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     border-width: 0;
-    padding: 7px 10px !important;
+	height: 44px;
+    padding: 8px 10px !important;
     }
 
 
@@ -128,5 +129,5 @@ ul.navbar-nav {
     }
 
 
-.navbar-toggle { transform: rotate(-90deg); border-radius: 0; }
-.navbar-toggle.collapsed { transform: rotate(0deg); border-radius: 24px; }
+.navbar-toggle { @include transform(rotate(-90deg)); border-radius: 0; }
+.navbar-toggle.collapsed { @include transform(rotate(0deg)); border-radius: 24px; }
