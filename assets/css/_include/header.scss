@@ -13,7 +13,7 @@
     text-transform: uppercase;
     text-shadow: 0 0 0 !important;
 	}
-	.icon-reorder:before {
+	.brand .icon-reorder:before {
     	background: #34495E;
     	border-bottom: 0 solid #2C3E50;
     	border-left: 3px solid #30373F;
@@ -64,3 +64,69 @@ ul.navbar-nav {
 		}
 
 
+
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+    border-color: transparent;
+
+}
+
+@media (max-width: 991px){	
+	ul.navbar-nav {
+    	float: left;
+		width: 100%;
+	}
+	.navbar-collapse {
+		margin-top: 6px;
+		background: #f1f1f1;
+	}
+}
+
+
+
+/* Mobile menu
+********************************/
+
+/* Button */
+.navbar-toggle,
+.navbar .btn-navbar {
+    background-color: #2C3E50;
+    background-image: none;
+    border-radius: 1px;    
+    -webkit-transform: translate3d(0, 0, 0); /* iOS boost & fix flicker */
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    border-width: 0;
+    padding: 7px 10px !important;
+    }
+
+
+    .navbar-default .navbar-toggle:hover, 
+    .navbar-default .navbar-toggle:focus,    
+    .navbar .btn-navbar:hover, 
+    .navbar .btn-navbar:focus, 
+    .navbar .btn-navbar:active, 
+    .navbar .btn-navbar.active, 
+    .navbar .btn-navbar.disabled, 
+    .navbar .btn-navbar[disabled] {
+        background-color: #2C3E50;
+    }
+        
+    /* Icon */
+    .navbar-toggle .icon-bar,
+    .navbar .btn-navbar .icon-bar {
+        background-color: #FFFFFF !important;
+        height: 4px;
+        margin: 4px 0;
+        width: 24px;
+        }
+
+    .navbar-default .navbar-collapse, 
+    .navbar-default .navbar-form {
+        border-color: transparent !important;
+        box-shadow: none !important;
+    }
+
+
+.navbar-toggle { transform: rotate(-90deg); border-radius: 0; }
+.navbar-toggle.collapsed { transform: rotate(0deg); border-radius: 24px; }

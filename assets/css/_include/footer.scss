@@ -13,6 +13,7 @@
 		opacity: 0.8;
 		}
 
+.footer-menu { width: 80% !important; }
 
 .footer-menu-box {
 	text-transform: uppercase;
@@ -45,12 +46,12 @@
 
 /* SNS Links */
 .sns-icons { 
-	width: 30%; 
+	width: 20%; 
 	float: left; 
 	}
     .sns-icons-box { 
         float: right; 
-        margin-top: -6px; 
+        margin-top: 0px; 
         }
         .sns-icons-box li {
             display: inline-block;
@@ -84,3 +85,81 @@
     width: 200px;
     margin: 14px 0 0 6px;
     }
+
+
+
+
+/* Back to top */
+@media (min-width: 768px){	
+	.sns-icons { float: right; }	
+	.copyright-box { float: left; }
+	.back-top { float: right; padding: 10px 0 0 0; }	
+	}
+
+@media (max-width: 767px){	  
+
+        .footer-menu {
+	        display: inline-block;
+	        margin: auto;
+	        text-align: center;
+	        width: 100% !important;
+		    }
+		    .footer-menu-box li {
+		    display: block !important;
+		    margin: 14px 0;
+		    }
+		    .footer-menu-box li a { 
+	        margin-right: 0px !important; 
+	        }	
+		
+		
+	.sns-icons {
+	    display: inline-block;
+	    float: none !important;
+	    margin: 20px auto;
+	    text-align: center;
+	    width: 100% !important;
+		}
+		.sns-icons-box {
+		    float: none !important;
+		    margin: 0;
+		    }
+			.sns-icons-box li {
+	    	width: auto;
+			}
+
+	
+	.copyright {
+	    display: inline-block;
+	    float: none !important;
+	    margin: 14px auto !important;
+	    text-align: center;
+	    width: 100%;
+		}	
+		.maker {
+			display: inline-block;
+		    border-left: 0 none !important;
+		    float: none !important;
+		    margin: 0 !important;
+		    padding-left: 0 !important;
+		    width: 100% !important;
+		    text-align: center;
+			}
+		
+	
+	.back-top {
+	    float: none !important;
+	    margin: 40px 0 0 !important;
+	    text-align: center !important;
+	    width: 100% !important;
+		}
+		.back-top a {
+		    background: none repeat scroll 0 0 #999999;
+		    border: 4px solid #FFFFFF;
+		    border-radius: 0px;
+		    color: #FFFFFF !important;
+		    padding: 10px 20px;
+		    box-shadow: 0 1px 2px #BBBBBB;
+			}
+	}
+	

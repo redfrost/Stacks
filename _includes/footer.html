@@ -16,14 +16,14 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
       			  	<li><a href="index.html">Main</a></li>
       			  	<li><a href="index-static.html">Static</a></li>
       			  	<li><a href="index-fullwidth.html">Full-width</a></li>
-      			  	<li><a onmouseover="this.style.cursor='pointer'" rel="tooltip" data-placement="top" title="V1.4.2">Version</a></li>
+      			  	<li><a onmouseover="this.style.cursor='pointer'" rel="tooltip" data-placement="top" title="{{site.versionInfo}}">Version</a></li>
       			  	                    
       			  	                    
       			</ul>
       		</div>
 
 	  		<!-- SNS Links -->
-      		<div class="sns-icons pull-right">
+      		<div class="sns-icons">
       			<ul class="sns-icons-box list-inline">
       				<li><a class="sns-link1" href="{{site.snsAccount.facebook}}"><i class="icon-facebook"></i></a></li>
       				<li><a class="sns-link2" href="{{site.snsAccount.twitter}}"><i class="icon-twitter"></i></a></li>
@@ -35,12 +35,12 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
           <div class="footer-note pull-left">{{site.footerNote}}</div>
 
-		  <div class="copyright-box pull-left">
+		  <div class="copyright-box">
 	          <p class="copyright">&copy; {{site.time | date:"%Y"}} {{site.name}}</p>
 	          <p class="maker"><a href="{{site.designerURL}}">{{site.designer}}</a></p>
       	  </div>
           
-          <p class="back-top pull-right"><a href="#top"><i class="icon-chevron-up"></i> Back To Top</a></p>
+          <p class="back-top"><a href="#top"><i class="icon-chevron-up"></i> Back To Top</a></p>
           
           </section>
         </footer><!-- /#footer -->

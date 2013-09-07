@@ -1,6 +1,6 @@
 .jumbotron {
     color: #ECF0F1;
-    font-size: 21px;
+    font-size: 1.3rem;
     font-weight: 200;
     height: 533px;
     line-height: 2.14286;
@@ -14,3 +14,25 @@
     	color: #BDC3C7;
     	line-height: 1.4;
 		}
+
+@media (max-width: 767px){	
+		.jumbotron {
+		    height: 480px;
+		    line-height: 2.14286;
+		    margin-bottom: 30px;
+		    padding: 200px 30px 30px;
+		    text-align: center;
+			background-position: center top;
+			}
+			.jumbotron .container {
+			    background: rgba(42, 52, 63, 0.9);
+			    padding: 16px;
+			}
+}
+
+@media (max-width: 479px){	
+		.jumbotron {
+		    padding: 120px 30px 30px;
+		    text-align: center;
+		}
+}
