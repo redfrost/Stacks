@@ -16,10 +16,8 @@ When you look into an abyss, the abyss also looks into you.
     <meta property="og:title" content="{{page.title}}" />
     <meta property="og:url" content="{{site.url}}" />
     <meta property="og:description" name="description" content="{{site.description}}" />
-    <meta property="og:type" content="website" />
-	{% if site.fbAppID == empty %}{% else %}
-	<meta property="fb:app_id" content="{{site.FBAppID}}" />
-    {% endif %}    
+    <meta property="og:type" content="website" />{% if site.fbAppID == empty %}{% else %}
+	<meta property="fb:app_id" content="{{site.FBAppID}}" />{% endif %}    
 
     
     <!-- User info -->             
@@ -39,8 +37,8 @@ When you look into an abyss, the abyss also looks into you.
 	<link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/main.css">  
 	<link rel="stylesheet" href="assets/css/font-awesome.css">	
-	<script src="assets/js/modernizr.js"></script>
-    {% if site.styleTest == 'yes' %}<link rel="stylesheet" href="assets/css/test.css">{% else %}{% endif %}
+	<script src="assets/js/modernizr.js"></script>{% if site.styleTest == 'yes' %}
+	<link rel="stylesheet" href="assets/css/test.css">{% else %}{% endif %}
 
     {% if site.mobileApp == 'yes' %}
 	<!-- Mobile App support -->     
@@ -51,25 +49,22 @@ When you look into an abyss, the abyss also looks into you.
     <link rel="apple-touch-startup-image" media="(device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="assets/img/startup@2x.png">
     <link rel="apple-touch-startup-image" media="(device-height: 568px)" href="assets/img/startup-568h.png">
     <link rel="apple-touch-startup-image" media="(device-height: 1024px) and (orientation: portrait)" href="assets/img/startup-ipad.png">
-    <link rel="apple-touch-startup-image" media="(device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="assets/img/startup-ipad@2x.png">
-    {% else %}{% endif %}
+    <link rel="apple-touch-startup-image" media="(device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="assets/img/startup-ipad@2x.png">{% else %}{% endif %}
 
-	{% if site.typekitID == empty %}{% else %}
-	<!-- Typekit -->	
+	
+	<!-- Typekit -->{% if site.typekitID == empty %}{% else %}	
     <script type="text/javascript" src="//use.typekit.net/{{site.typekitId}}.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	{% endif %}
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>{% endif %}
 
 
     <!-- Layout setting -->{% if site.responsive == 'yes' %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale={{site.mobileZoom}}">{% else %}
     <meta name="viewport" content="width=1025">{% endif %}
-    <style type="text/css">.responsive .container { margin: auto; max-width: {{site.containerWidth}}; }</style>    		      
-		<!-- Search Engine Indexing -->     
-		{% if site.siteIndexing == 'yes' %}
-        <meta name="robots" content="index, follow">
-        {% else %}
-        <meta name="robots" content="noindex, nofollow">
-		{% endif %}
+    <style type="text/css">.container { margin: auto; max-width: {{site.siteWidth}}px; }</style>   
+    
+     		      
+	<!-- Search Engine Indexing -->{% if site.siteIndexing == 'yes' %}
+    <meta name="robots" content="index, follow">{% else %}
+    <meta name="robots" content="noindex, nofollow">{% endif %}
     
 </head>

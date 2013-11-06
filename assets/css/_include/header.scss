@@ -5,6 +5,7 @@
     border-radius: 0px;
 }
 
+
 /* Logo text */
 .navbar h1 { margin-top: 0; }
 .brand {
@@ -134,3 +135,12 @@ ul.navbar-nav {
 
 .navbar-toggle { @include transform(rotate(-90deg)); border-radius: 0; }
 .navbar-toggle.collapsed { @include transform(rotate(0deg)); border-radius: 24px; }
+
+
+
+/* Disable fixed menu in mobile devices to avoid scrolling bug */
+.touch .navbar-fixed-top {
+    position: absolute;
+	}	
+
+	

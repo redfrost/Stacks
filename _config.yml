@@ -22,6 +22,7 @@ versionInfo:  "1.5.0"
 
 # Site setting
 responsive:   "yes"   # yes|no
+siteWidth:    "1170"
 navTopFix:    "yes"
 logoType:     "text"  # text|image
 mobileApp:	  "no"
