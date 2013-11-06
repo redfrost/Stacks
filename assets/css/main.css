@@ -230,6 +230,10 @@ body {
   background: #ecf0f1;
 }
 
+.container {
+  width: 100%;
+}
+
 /* =============================================================================
    Typography
    ============================================================================= */
@@ -413,6 +417,11 @@ ul.navbar-nav {
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
   border-radius: 24px;
+}
+
+/* Disable fixed menu in mobile devices to avoid scrolling bug */
+.touch .navbar-fixed-top {
+  position: absolute;
 }
 
 /* =============================================================================

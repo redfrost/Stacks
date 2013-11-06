@@ -1,9 +1,3 @@
-### 1.5a: 06-November-2013
-* Bootstrap3.0.1 support
-* Fon-Awesome4 support
-* Optimised footer
-
-
 ### 1.5: 07-Sep-2013
 * Bootstrap3 support
 * SASS & Bourbon support
