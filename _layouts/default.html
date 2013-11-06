@@ -1,6 +1,5 @@
 {% include head.html %}
 
-<!-- Body starts -->
 <body id="top" class="{{site.layoutStyle}}" data-spy="scroll">
 
     {% if site.preLoader == 'no' %}
@@ -8,15 +7,15 @@
     {% else %}
     <div id="master-wrap" style="opacity: 0;">
     {% endif %} 
- 		
-		<!-- Header -->
+
+		<!-- Nav menu -->
         {% include section-menu.html %}
         
-        <!-- Main hero unit for a primary marketing message or call to action -->
+        <!-- Main jumbotron unit -->
         {% include section-featured.html %}
         
         <!-- Contents -->
-        <div id="main-content">		
+        <div class="main-content">		
         
             {% include section-about.html %}
         

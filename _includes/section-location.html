@@ -1,6 +1,6 @@
 <section id="contact">
     <div class="container"> 
-       <h2><i class="icon-comments-alt"></i> Got Questions?</h2>
+       <h2><i class="fa fa-comments-o"></i> Got Questions?</h2>
 			<p class="byline">Help and support</p>
 					
 			<p>The Very Best Way To Get in Touch With Us.</p>
@@ -8,7 +8,7 @@
             <div class="row">       
                
 				<div class="col-sm-7 map">
-					<span class="mapaddress">{{site.userInfo.address}}</span>						
+					<span class="mapaddress">{{site.userInfo.userAddress}}</span>						
 				</div>						
 				
 				<div class="col-sm-5">			
@@ -17,10 +17,10 @@
 					<h3><strong>Address:</strong></h3>
 
 					<address>
-					{{site.userInfo.address}}
+					{{site.userInfo.userAddress}}
 					</address>
 
-                    <p>P.O.BOX: {{site.userInfo.pobox}}</p>
+                    <p>P.O.BOX: {{site.userInfo.poBox}}</p>
 					<p>PH: {{site.userInfo.phone}}<br />
 					FAX: {{site.userInfo.fax}}
 					</p>		
