@@ -43,6 +43,18 @@
 		
 
 
+// Top menu Affix
+    jQuery(document).ready(function () {
+    $('.navbar-fixed-top').affix({
+    	offset: {
+    	top: 40, 
+    	bottom:0
+    		}
+    	})
+    });
+		
+		
+
 //Convert Address tags into a map link
 	jQuery(document).ready(function () {
         $('address').each(function () {
