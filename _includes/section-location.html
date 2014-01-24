@@ -1,57 +1,58 @@
 <section id="contact">
-    <div class="container"> 
-       <h2><i class="fa fa-comments-o"></i> Got Questions?</h2>
-			<p class="byline">Help and support</p>
-					
-			<p>The Very Best Way To Get in Touch With Us.</p>
+	<div class="container">
 
-            <div class="row">       
-               
-				<div class="col-sm-7 map">
-					<span class="mapaddress">{{site.userInfo.userAddress}}</span>						
-				</div>						
-				
-				<div class="col-sm-5">			
-                	<div class="address">
-					
-					<h3><strong>Address:</strong></h3>
+		<h2><i class="fa fa-comments-o"></i> Got Questions?</h2>
+		<p class="byline">Help and support</p>
 
-					<address>
-					{{site.userInfo.userAddress}}
-					</address>
+		<p>The Very Best Way To Get in Touch With Us.</p>
 
-                    <p>P.O.BOX: {{site.userInfo.poBox}}</p>
-					<p>PH: {{site.userInfo.phone}}<br />
-					FAX: {{site.userInfo.fax}}
-					</p>		
-					
-					<p>Please feel free to contact me for more information.<br>
-					Send us an e-mail by filling out the form below.</p>
-					
-					<h6><em>{{site.userInfo.workingHours}}</em></h6>		
-                    
-					</div>
-				</div>				
-		  </div>
+		<div class="row">
 
-           
-           	<!-- Contact Form -->
-			<div class="row">
-				    <div class="col-sm-12 contact-box">
-				    
-				    <!-- Popup trigger -->   	
-    				<div class="text-center">
-        				<button type="button" class="btn btn-danger btn-large" data-toggle="collapse" data-target="#contact-form">
-        				<i class="icon-arrow-right"></i> <strong>SEND US AN ENQUIRY</strong>
-        				</button>	
-    				</div>		
-				    
-				    <div id="contact-form" class="collapse">    
-                        {% include contact-form.html %}
-					</div><!-- /#contact-form -->
-						
-				    </div>
-			</div>
-           
-   </div>        
+			<div class="col-sm-7 map">
+			<span class="mapaddress">{{site.userInfo.userAddress}}</span>
+			</div><!-- /.col-sm-7 -->
+
+			<div class="col-sm-5">
+				<div class="address-box">
+
+				<h3><strong>Address:</strong></h3>
+
+				<address>
+				{{site.userInfo.userAddress}}
+				</address>
+
+				<p>P.O.BOX: {{site.userInfo.poBox}}</p>
+				<p>PH: {{site.userInfo.phone}}<br />
+				FAX: {{site.userInfo.fax}}</p>
+
+				<p>Please feel free to contact me for more information.<br>
+				Send us an e-mail by filling out the form below.</p>
+
+				<h6><em>{{site.userInfo.workingHours}}</em></h6>
+
+				</div><!-- /.address-box -->
+			</div><!-- /.col-sm-5 -->
+
+		</div><!-- /.row -->
+
+
+		<!-- Contact Form -->
+		<div class="row">
+			<div class="col-sm-12 contact-box">
+
+				<!-- Popup trigger -->
+				<div class="text-center">
+					<button type="button" class="btn btn-danger btn-large" data-toggle="collapse" data-target="#contact-form">
+					<i class="icon-arrow-right"></i> <strong>SEND US AN ENQUIRY</strong>
+					</button>
+				</div>
+
+				<div id="contact-form" class="collapse">
+				{% include contact-form.html %}
+				</div><!-- /#contact-form -->
+
+			</div><!-- /.col-sm-12 -->
+		</div><!-- /.row -->
+
+	</div><!-- /.container -->
 </section>

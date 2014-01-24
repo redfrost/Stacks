@@ -1,41 +1,40 @@
 <!-- Nav menu -->{% if site.navTopFix == 'yes' %}
 <header class="navbar navbar-default navbar-fixed-top" role="banner">{% else %}
 <header class="navbar navbar-default nav-standard">{% endif %}
-	
-<div class="container">
 
-    <div class="navbar-header">
-		
-		<!-- Mobile button -->
-		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button>
+	<div class="container">
 
-		<!-- Logo Image -->
-		{% if site.logoType == 'image' %}            
-		<h1 class="logo logo-fixed"><a class="navbar-brand brand logo-image" href="{{site.url}}"><img alt="{{site.name}}" src="assets/img/logo.png"></a></h1>{% else %}
+		<div class="navbar-header">
 
-		<!-- Logo -->
-		<h1 class="logo logo-fixed"><a class="navbar-brand brand" href="{{site.url}}">{{site.name}} <small>{{site.slogan}}</small></a></h1>{% endif %}
-  
-	</div><!-- /.navbar-header -->
+			<!-- Mobile button -->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 
-	<!-- Navigation -->
-	<nav class="navbar-collapse collapse" role="navigation">
-		<ul class="nav navbar-nav">
-			<li class="active"><a href="#top">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#services">Services</a></li>                                                                               
-			<li><a href="#pricing">Pricing</a></li> 
-			<li><a href="#team">Our Team</a></li> 
-			<li><a href="#contact">Contact</a></li>   
-		</ul> 
-	</nav><!--/.nav-collapse -->
-    
-</div>
+			<!-- Logo Image -->
+			{% if site.logoType == 'image' %}
+			<h1 class="logo logo-fixed"><a class="navbar-brand brand logo-image" href="{{site.url}}"><img alt="{{site.name}}" src="assets/img/logo.png"></a></h1>{% else %}
+
+			<!-- Logo -->
+			<h1 class="logo logo-fixed"><a class="navbar-brand brand" href="{{site.url}}">{{site.name}} <small>{{site.slogan}}</small></a></h1>{% endif %}
+
+		</div><!-- /.navbar-header -->
+
+		<!-- Navigation -->
+		<nav class="navbar-collapse collapse" role="navigation">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#top">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#pricing">Pricing</a></li>
+				<li><a href="#team">Our Team</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav><!--/.nav-collapse -->
+
+	</div><!-- /.container -->
 </header>
 
-                        
