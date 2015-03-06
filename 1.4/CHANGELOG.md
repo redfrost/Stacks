@@ -1,4 +1,8 @@
-### 1.4.2a: 26-Aug-2013
+### 1.4.4: 07-Mar-2015
+* Jekyll 2.5.x support
+
+
+### 1.4.3: 26-Aug-2013
 * Updated Open Graph header
 * Indexing option
 * .htaccess optimisation
