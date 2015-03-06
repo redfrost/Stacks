@@ -1,5 +1,5 @@
 <section id="pricing" class="full-bg">
-    <div class="<?=$containerClass?>"> 
+    <div class="<?=$containerClass?>">
       <h1 class="light text-center">Pricing</h1>
       <p class="byline text-center">Praesent commodo cursus magna</p>
       <p>&nbsp;</p>
@@ -48,7 +48,7 @@
           <div class="price-number"><h4>$699.95</h4></div>
           <button href="#" class="btn btn-success">Subscribe</button>
         </div>
-        
+
       </div>
     </div>
-</section>      
+</section>

@@ -1,4 +1,4 @@
-### 1.4.2a: 26-Aug-2013
+### 1.4.3: 26-Aug-2013
 * Updated Open Graph header
 * $fbAppID -> define('fbAppID','')
 * .htaccess

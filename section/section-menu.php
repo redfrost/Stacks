@@ -9,31 +9,31 @@
 
 
                     <!-- Logo Image -->
-                    <?php if ($LOGO_TYPE == "image") { ?> 
-                    
+                    <?php if ($LOGO_TYPE == "image") { ?>
+
                     <a class="brand logo-image" href="#">
                     <img alt="<?=$SiteTitle?>" src="<?=$LOGO_PATH?>">
                     </a>
-                        
+
                     <? } else { ?>
-                
+
                     <!-- Logo -->
                     <a class="brand" href="#"><strong><i class="icon-reorder"></i> Stacks</strong></a>
-                
+
                     <?php } ?>
 
 
 
-                    
+
                     <!-- Navigation -->
                     <nav class="nav-collapse collapse">
                         <ul class="nav">
-	                        <li class="active"><a href="#top">Home</a></li>
+                          <li class="active"><a href="#top">Home</a></li>
                             <li><a href="#about">About</a></li>
-                            <li><a href="#services">Services</a></li>                                                                               
-                            <li><a href="#pricing">Pricing</a></li> 
-                            <li><a href="#team">Our Team</a></li> 
-                            <li><a href="#contact">Contact</a></li>                            
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#team">Our Team</a></li>
+                            <li><a href="#contact">Contact</a></li>
                             <!-- <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
@@ -45,10 +45,10 @@
                                     <li><a href="#">Hurry Up</a></li>
                                     <li><a href="#">Get Your Work Done</a></li>
                                 </ul>
-                            </li> --> 
+                            </li> -->
                         </ul>
-                        
-                        
+
+
                     </nav><!--/.nav-collapse -->
                 </div>
             </div>

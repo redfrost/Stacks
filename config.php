@@ -2,7 +2,7 @@
 
 //Header Information
 $SiteTitle= "Stacks"; // Website title
-$Description= "Simple and intuitive website boilerplate"; // Website description 
+$Description= "Simple and intuitive website boilerplate"; // Website description
 $Author= "Redfrost"; // Site owner
 $Designer= "Simonalex"; // Site designer or developer
 $Copyright= "Redfrost"; //Search keywords
@@ -41,7 +41,7 @@ $USER_FAX= "123-456-7890";   // USER FAX
 
 
 // Responsive class
-if ($Layoutstyle == "responsive") { 
+if ($Layoutstyle == "responsive") {
     $containerClass = 'container-fluid';
     $rowClass = 'row-fluid';
     } else {
