@@ -3,11 +3,10 @@ name:         "Stacks"
 slogan:       "Simple and intuitive website boilerplate"
 description:  "Simple and intuitive website boilerplate"
 url:          "http://redfrost.com/Stacks/"
-markdown:     rdiscount
-pygments:     true
 sass:
-  syntax: scss # scss|sass
-  style:  expanded # nested|expanded|compact|compressed	
+  sass_dir:   assets/css/  # path
+  syntax: scss             # scss|sass
+  style:  compressed       # nested|expanded|compact|compressed
 
 
 # Meta
@@ -40,7 +39,7 @@ userInfo:
   phone:        "123-456-7890"
   fax:          "123-456-7890"
   userEmail:    "info@redfrost.com"
-  workingHours:	"Working hours: 9:00AM - 5:00PM (Monday to Friday)" 
+  workingHours:	"Working hours: 9:00AM - 5:00PM (Monday to Friday)"
 
 
 # Links
@@ -49,7 +48,7 @@ snsLink:
   link2:   "#" # Twitter
   link3:   "#" # Google+
   link4:   "#" # Youtube
-  link5:   "#" # LinkedIn 
+  link5:   "#" # LinkedIn
 
 
 # Add-on
