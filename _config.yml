@@ -1,0 +1,49 @@
+# Default setting
+name:         "Stacks"
+description:  "Simple and intuitive website boilerplate"
+url:          "http://redfrost.com/Stacks/"
+hilighter:    true
+
+
+# Meta
+author:       "Redrost"
+designer:     "Redrost Design"
+copyright:    "Redfrost Design"
+fbAppID:      "no"
+keywords:     "Sexyback"
+
+
+# Site setting
+layoutStyle:    "responsive"
+logoType:       "image"
+contentWidth:   "1100px"
+containerClass: "container-fluid"
+rowClass:       "row-fluid"
+footerNote:     "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
+mobileApp:		"yes"
+siteIndexing:   "no"
+
+userInfo:
+  businessName: "Opera house"
+  address:      "Bennelong Point Sydney NSW 2000 Australia"
+  pobox:        "Royal Exchange Sydney"
+  phone:        "123-456-7890"
+  fax:          "123-456-7890"
+  userEmail:    ""
+  workingHours:	"*Working hours: 9:00AM - 5:00PM (Monday to Friday)"
+
+snsAccount:
+  facebook:     "https://www.facebook.com/simonalexlim"
+  twitter:      "#"
+  googleplus:   "#"
+  youtube:      "#"
+  linkedin:     "#"
+
+
+# Add-on
+typekitId:    ""
+formLink:     ""
+formId:       ""
+disqus:       ""
+trackingId:   ""
+videoLink:    "http://player.vimeo.com/video/56860648"

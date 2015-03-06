@@ -1,0 +1,31 @@
+{% include head.html %}
+
+<!-- Body starts -->
+<body id="top" class="{{site.layoutStyle}}" data-spy="scroll">
+    <div id="master-wrap" style="opacity: 0;">
+		
+		<!-- Header -->
+        {% include section-menu.html %}
+        
+        <!-- Main hero unit for a primary marketing message or call to action -->
+        {% include section-featured.html %}
+        
+        <!-- Contents -->
+        <div id="main-content">		
+        
+            {% include section-about.html %}
+        
+            {% include section-services.html %}
+        
+            {% include section-pricing.html %}
+        
+            {% include section-team.html %}
+        
+            {% include section-location.html %}
+        
+            {% include section-partners.html %}
+
+        </div><!-- /.main-content -->
+
+    {% include footer.html %}
+    
