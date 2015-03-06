@@ -1,12 +1,12 @@
 # Default setting
 name:         "Stacks"
+slogan:       "Simple and intuitive website boilerplate"
 description:  "Simple and intuitive website boilerplate"
 url:          "http://redfrost.com/Stacks/"
-markdown:     rdiscount
-pygments:     true
 sass:
-  syntax: scss # scss|sass
-  style:  expanded # nested|expanded|compact|compressed	
+  sass_dir:   assets/css/  # path
+  syntax: scss             # scss|sass
+  style:  compressed       # nested|expanded|compact|compressed
 
 
 # Meta
@@ -14,43 +14,51 @@ author:       "Redrost"
 designer:     "Redrost Design"
 designerURL:  "http://redfrost.com/"
 copyright:    "Redfrost Design"
-fbAppID:      "no" # ID|no
+FBAppID:      ""
 keywords:     "Sexyback"
 versionInfo:  "1.5.0"
 
 
 # Site setting
-layoutStyle:    "responsive" # responsive|static
-logoType:       "text" # text|image
-contentWidth:   ""
-footerNote:     "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
-mobileApp:		"yes" # yes|no
-preLoader:	    "no"  # yes|no
-siteIndexing:   "no"  # yes|no
+responsive:   "yes"   # yes|no
+siteWidth:    "1170"
+navTopFix:    "yes"
+logoType:     "text"  # text|image
+mobileApp:	  "no"
+mobileZoom:   "1.0"   # 1.0=disable zoom
+preLoader:	  "no"
+siteIndexing: "no"
+styleTest:    "no"
 
 
+## User setting
 userInfo:
   businessName: "Opera house"
-  address:      "Bennelong Point Sydney NSW 2000 Australia"
-  pobox:        "Royal Exchange Sydney"
+  userAddress:  "Bennelong Point Sydney NSW 2000 Australia"
+  poBox:        "Royal Exchange Sydney"
   phone:        "123-456-7890"
   fax:          "123-456-7890"
-  userEmail:    ""
-  workingHours:	"Working hours: 9:00AM - 5:00PM (Monday to Friday)" 
+  userEmail:    "info@redfrost.com"
+  workingHours:	"Working hours: 9:00AM - 5:00PM (Monday to Friday)"
 
 
-snsAccount:
-  facebook:     "https://www.facebook.com/simonalexlim"
-  twitter:      "#"
-  googleplus:   "#"
-  youtube:      "#"
-  linkedin:     "#"  
+# Links
+snsLink:
+  link1:   "#" # Facebook
+  link2:   "#" # Twitter
+  link3:   "#" # Google+
+  link4:   "#" # Youtube
+  link5:   "#" # LinkedIn
 
 
 # Add-on
-typekitId:    ""
+typekitID:    ""
 formLink:     ""
-formId:       "" # wufoo form ID
-disqus:       ""
-trackingId:   "" # Google analytics ID
+formID:       "" # wufoo form ID
+disqus:       "" # disqus ID
+trackingID:   "" # Google analytics ID
 videoLink:    "http://player.vimeo.com/video/56860648"
+
+
+# Footer Note
+footerNote:   "<b>IMPORTANT:</b> All works of art within this web site are protected under copyright laws and international conventions. No portion of the artists works or statements may be used, downloaded, reproduced using any means, copied, linked to, or transferred electronically, without prior written permission from the artist."

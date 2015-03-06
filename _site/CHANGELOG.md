@@ -1,10 +1,18 @@
+### 1.5.2: 07-Mar-2015
+* Jekyll 2.5.x support
+
+
+### 1.5.1: 24-Jan-2014
+* Cleaned up markups
+
+
 ### 1.5: 07-Sep-2013
 * Bootstrap3 support
 * SASS & Bourbon support
 * Prefixfree.js: removed
 
 
-### 1.4.2a: 26-Aug-2013
+### 1.4.3: 26-Aug-2013
 * Updated Open Graph header
 * Indexing option
 * .htaccess optimisation
@@ -80,7 +88,7 @@
 * Responsive Footer
 * Responsive Popover
 * Responsive Div margin
-* Removed unnecessary code in responsive.css 
+* Removed unnecessary code in responsive.css
 * Changelog
 
 
@@ -98,7 +106,7 @@
 * SNS icons (http://www.zurb.com/playground/social-webicons)
 * nav menu scrollspy
 * footer menu
-* footer menu mobile version 
+* footer menu mobile version
 
 
 ### 1.0: 05-Jan-2013

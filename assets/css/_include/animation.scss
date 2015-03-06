@@ -7,7 +7,7 @@
 	}
 
 /* Fast  Fade Animation */
-.animation-fast, .brand, .fade-hover, .nav li a, .sns-icons-box li, .brand .icon-reorder:before, .maker a, #footer li a, .back-top a { 
+.animation-fast, .brand, .fade-hover, .nav li a, .sns-icons li, .brand .icon-reorder:before, .maker a, #footer li a, .back-top a { 
 	@include transition (all 200ms ease);
 	/* -webkit-transform: translate3d(0, 0, 0); Webkit Hardware Acceleration*/ 
 	-webkit-backface-visibility: hidden; /* Safari Flicker Fix #2 */

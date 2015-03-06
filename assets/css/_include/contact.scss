@@ -11,8 +11,16 @@
     padding: 28px;
 }
 
+#contact label {
+    display: block;
+}
+
 #contact-form textarea {
-     width: 90%;
+     width: 100%;
+}
+
+#contact-form ul { 
+	padding: 20px; 
 }
 
 #contact-form li {

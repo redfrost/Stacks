@@ -5,30 +5,34 @@
     border-radius: 0px;
 }
 
+
 /* Logo text */
 .navbar h1 { margin-top: 0; }
 .brand {
     color: #34495E !important;
     font-size: 2rem;
     text-transform: uppercase;
-    text-shadow: 0 0 0 !important;
+    text-shadow: 0 !important;
+	padding: 21px 10px;
 	}
-	.brand .icon-reorder:before {
+	.brand:before {
+		font-family:FontAwesome;
+		content:"\f0c9";
     	background: #34495E;
     	border-bottom: 0 solid #2C3E50;
     	border-left: 3px solid #30373F;
     	border-right: 3px solid #FFFFFF;
     	color: #BDC3C7;
-    	margin: -21px 0;
+    	margin-right: 10px;
     	padding: 21px 12px;
 		}
 		.brand:hover {
 			color: #4e6276 !important;
 			}
-		.brand:hover .icon-reorder:before {
+		.brand:hover:before {
 	    	color: #f1c40f;
-			}
-
+			}			
+			.brand small { display: none; }
 
 
 /* Logo Image */
@@ -97,7 +101,8 @@ ul.navbar-nav {
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     border-width: 0;
-    padding: 7px 10px !important;
+	height: 44px;
+    padding: 8px 10px !important;
     }
 
 
@@ -128,5 +133,14 @@ ul.navbar-nav {
     }
 
 
-.navbar-toggle { transform: rotate(-90deg); border-radius: 0; }
-.navbar-toggle.collapsed { transform: rotate(0deg); border-radius: 24px; }
+.navbar-toggle { @include transform(rotate(-90deg)); border-radius: 0; }
+.navbar-toggle.collapsed { @include transform(rotate(0deg)); border-radius: 24px; }
+
+
+
+/* Disable fixed menu in mobile devices to avoid scrolling bug */
+.touch .navbar-fixed-top {
+    position: absolute;
+	}	
+
+	
