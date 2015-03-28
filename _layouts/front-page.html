@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" class="no-js"><!-- Modernizr JS detection -->
+
+{% include head.html %}
+
+<body id="top" class="{{site.layout}}" data-spy="scroll">
+  <div id="master-wrap" class="{{page.title | slugify}}">
+
+    <!-- Nav menu -->
+    {% include nav.html %}
+    {% include section-carousel-caption.html %}
+
+    <!-- Contents -->
+    <div class="content">
+    {{content}}
+    </div><!-- /.contents -->
+
+    {% include footer.html %}
+
+  </div><!-- /#master-wrap -->
+
+{% include scripts.html %}
+
+</body>
+</html>

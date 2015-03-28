@@ -1,3 +1,7 @@
+### 2.0 28-Mar-2015
+* Major update
+
+
 ### 1.5.2: 07-Mar-2015
 * Jekyll 2.5.x support
 

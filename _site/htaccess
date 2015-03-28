@@ -141,4 +141,5 @@ AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css a
 
 </IfModule>
 
+ErrorDocument 404 /404.html
 

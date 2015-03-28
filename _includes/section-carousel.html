@@ -1,58 +1,63 @@
-<section class="hero-unit carousel-section masthead">
 
-                    <div id="myCarousel" class="carousel slide carousel-fade">
+<!-- Carousel -->
+<div id="myCarousel" class="carousel slide carousel-fade">
 
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                            <li data-target="#myCarousel" data-slide-to="3"></li>
-                        </ol>
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+		<li data-target="#myCarousel" data-slide-to="3"></li>
+		<li data-target="#myCarousel" data-slide-to="4"></li>
+	</ol>
 
-				        <div class="carousel-inner">
-
-				            <div class="item active">
-
-				                <div class="bannerImage">
-				                    <a href="#"><img src="assets/img/banner_01.jpg" alt=""></a>
-				                </div>
-
-				            </div><!-- /Slide1 -->
-
-				            <div class="item">
-
-				                <div class="bannerImage">
-				                    <a href="#"><img src="assets/img/banner_02.jpg" alt=""></a>
-				                </div>
-
-				            </div><!-- /Slide2 -->
-
-				            <div class="item">
-
-				                <div class="bannerImage">
-				                    <a href="#"><img src="assets/img/banner_03.jpg" alt=""></a>
-				                </div>
-
-				            </div><!-- /Slide3 -->
-
-				            <div class="item">
-
-				                <div class="bannerImage">
-				                    <a href="#"><img src="assets/img/banner_04.jpg" alt=""></a>
-				                </div>
-
-				            </div><!-- /Slide4 -->
-
-				        </div><!-- carousel-inner -->
+	<div class="carousel-inner">
 
 
-                    <div class="control-box">
-                        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-                        <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="fa fa-chevron-right"></i></a>
-                    </div><!-- /.control-box -->
-
-                </div><!-- /#myCarousel -->
+    <!-- Slide 1 : Active -->
+    <div class="item slide1 active">
+      <a href="#"><img src="{{site.url}}assets/img/banner-01.jpg" alt=""></a>
+    </div><!-- /Slide1 -->
 
 
-</section><!-- /.carousel-section -->
+    <!-- Slide 2 -->
+    <div class="item slide2">
+      <a href="#"><img src="{{site.url}}assets/img/banner-02.jpg" alt=""></a>
+    </div><!-- /Slide2 -->
+
+
+    <!-- Slide 3 -->
+    <div class="item slide3">
+      <a href="#"><img src="{{site.url}}assets/img/banner-03.jpg" alt=""></a>
+    </div><!-- /Slide3 -->
+
+
+    <!-- Slide 4 -->
+    <div class="item slide4">
+      <a href="#"><img src="{{site.url}}assets/img/banner-04.jpg" alt=""></a>
+    </div><!-- /Slide4 -->
+
+
+    <!-- Slide 5 -->
+    <div class="item slide5">
+      <a href="#"><img src="{{site.url}}assets/img/banner-05.jpg" alt=""></a>
+    </div><!-- /Slide5 -->
+
+
+  </div><!-- /.carousel-inner -->
+
+
+ <!-- Controls -->
+	<div class="control-box">
+	  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	    <span class="control-icon prev fa fa-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	    <span class="control-icon next fa fa-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div><!-- /.control-box -->
+
+
+</div><!-- /#myCarousel -->

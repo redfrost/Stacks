@@ -1,21 +1,68 @@
-/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700,800); */
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911);
+/* Variable */
+$font-base: 16; /* pixel */
+$line-height-base: 26; /* pixel */
 
-body {
-	color: #7f8c8d;
-	font-family: 'Montserrat', "Helvetica Neue",Helvetica,Arial,sans-serif;
-	line-height: 1.5;
-	font-size: 1.13rem;
-}
-
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Montserrat', "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-h2 { font-size: 2.5rem; }
+$font-color: #333132;
 
 
-.byline { color: #BDC3C7; }
+$font-family: $helvetica; /* $helvetica, $georgia, $lucida-grande, $verdana, $monospace */
+$heading-font-family: $helvetica; /* $helvetica, $georgia, $lucida-grande, $verdana, $monospace */
+$heading-color: #000;
 
-.goudy { font-family: 'Goudy Bookletter 1911', serif; }
+
+
+
+
+/* Base */
+html {
+  font-size: $font-base * 1px;
+  line-height: $line-height-base * 1px;
+  -webkit-font-smoothing: subpixel-antialiased; /* Safari font AA fix */
+  }
+  body {
+    font-family: $font-family;
+    font-size: 1rem;
+    line-height: ($line-height-base / $font-base) * 1rem;
+    color: $font-color;
+    }
+
+
+
+/* Headings
+-------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+  color: $heading-color;
+  font-weight: bold;
+  }
+
+h1,h1 a {
+  font-size: 4.236rem;
+  }
+
+h2,h2 a,.post-title {
+  font-size: 2.618rem;
+  }
+
+h3,h3 a {
+  font-size: 1.618rem;
+  }
+
+h4,h4 a {
+  font-size: 1.277rem;
+  }
+
+h5,h5 a {
+  font-size: 0.789rem;
+  }
+
+h6,h6 a {
+  font-size: 0.618rem;
+  }
+
+
+.lead { font-size: 1.25rem; font-weight: 300; }
+
+
+
+
