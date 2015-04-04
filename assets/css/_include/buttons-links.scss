@@ -1,27 +1,36 @@
-/* Link */
-a, a:focus {
-  text-decoration: none;
-  cursor: pointer;
+/* Links */
+a,a:focus  { color: $link-color; }
+  a:hover  { color: lighten($link-color, 10% ); }
+  a:active { color:  darken($link-color, 10% ); }
+
+
+
+  /* Buttons */
+.btn {
+  @include background-image(linear-gradient(rgba(255,255,255,0.25), transparent, rgba(0,0,0,0.13)));    /* Gradient global */
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 1px 1px rgba(0, 0, 0, 0.075);                  /* Shadow */
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);                                                           /* Text-shadow */
+  border-color: rgba(255, 255, 255, 0.3) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.5) !important;
   }
-  a:hover {
-    zoom: 1;
-    text-decoration: none;
-    }
 
 
 
-.btn { border-radius: 0px !important; }
-.btn-large { padding: 10px 30px !important; font-size: 1.13rem !important; }
-.btn-default { border-bottom: 1px solid #EBEBEB !important; border-left: 0px !important;  border-right: 0px !important; }
-.btn-primary { border-bottom: 1px solid #3276B1 !important; background: #006dcc; border-left: 0px !important;  border-right: 0px !important; }
-.btn-success { border-bottom: 1px solid #47A447 !important; border-left: 0px !important;  border-right: 0px !important; }
-.btn-info    { border-bottom: 1px solid #39B3D7 !important; border-left: 0px !important;  border-right: 0px !important; }
-.btn-warning { border-bottom: 1px solid #ED9C28 !important; border-left: 0px !important;  border-right: 0px !important; }
-.btn-danger  { border-bottom: 1px solid #c0392b !important; border-left: 0px !important;  border-right: 0px !important; }
+   /* Base colour */
+  .btn-default {&,&:hover,&:focus,&:active,&.active { background-color: $btn-default !important;} }
+  .btn-primary {&,&:hover,&:focus,&:active,&.active { background-color: $btn-primary !important;} }
+  .btn-success {&,&:hover,&:focus,&:active,&.active { background-color: $btn-success !important;} }
+  .btn-info    {&,&:hover,&:focus,&:active,&.active { background-color: $btn-info    !important;} }
+  .btn-warning {&,&:hover,&:focus,&:active,&.active { background-color: $btn-warning !important;} }
+  .btn-danger  {&,&:hover,&:focus,&:active,&.active { background-color: $btn-danger  !important;} }
+  .btn-inverse {&,&:hover,&:focus,&:active,&.active { background-color: $btn-inverse !important;} }
+
+   /* Hover */
+  .btn-default:hover { background-color: lighten($btn-default, 10% ) !important; }
+  .btn-primary:hover { background-color: lighten($btn-primary, 10% ) !important; }
+  .btn-info:hover    { background-color: lighten($btn-info,    10% ) !important; }
+  .btn-success:hover { background-color: lighten($btn-success, 10% ) !important; }
+  .btn-warning:hover { background-color: lighten($btn-warning, 10% ) !important; }
+  .btn-danger:hover  { background-color: lighten($btn-danger , 10% ) !important; }
+  .btn-inverse:hover { background-color: lighten($btn-inverse, 10% ) !important; }
 
 
-@media (max-width: 480px){
-  .btn-large {
-      padding: 10px !important;
-    }
-}

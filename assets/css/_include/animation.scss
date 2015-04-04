@@ -10,11 +10,13 @@
 .fade-hover,
 .navbar-fixed-top,
 .navbar-brand,
+.site-title,
 .navbar-nav,
+.navbar-toggle .icon-bar,
 .nav li a,
 #footer li a,
 .maker a,
-.navbar-toggle .icon-bar {
+.btn {
   @include transition (all 200ms ease);
   }
 

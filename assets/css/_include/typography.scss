@@ -1,18 +1,3 @@
-/* Variable */
-$font-base: 16; /* pixel */
-$line-height-base: 26; /* pixel */
-
-$font-color: #333132;
-
-
-$font-family: $helvetica; /* $helvetica, $georgia, $lucida-grande, $verdana, $monospace */
-$heading-font-family: $helvetica; /* $helvetica, $georgia, $lucida-grande, $verdana, $monospace */
-$heading-color: #000;
-
-
-
-
-
 /* Base */
 html {
   font-size: $font-base * 1px;
@@ -61,7 +46,7 @@ h6,h6 a {
   }
 
 
-.lead { font-size: 1.25rem; font-weight: 300; }
+.lead { font-size: 1.25rem; font-weight: 200; }
 
 
 

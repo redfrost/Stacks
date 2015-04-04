@@ -1,11 +1,48 @@
- .jumbotron {
-  margin-bottom: 0;
- }
 
- .section-block {
+.logo-box .site-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  }
+  .logo-box .slogan { display: none; }
+
+
+@media (min-width:992px) {
+  .navbar-nav > li > a  {
+    border-radius: 5px;
+    padding: 8px 12px;
+  }
+/* /End */
+}
+
+
+.section-block {
   padding: 60px 0;
   border-top: 2px dashed;
- }
+  }
+
+
+.site-title::before {
+  content: "\f0c9";
+  display: inline-block;
+  font-family: "FontAwesome";
+  margin-right: 10px;
+  }
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  border-bottom: 7px solid #ddd;
+  border-radius: 0;
+  display: inline;
+  }
+
+
+ .jumbotron {
+  margin-bottom: 0;
+  }
+
 
 .section-block .page-header,
 .section-block .page-header h2 {
@@ -17,11 +54,9 @@
 .site-footer {
   padding: 60px 0;
   border-top: 2px dashed;
- }
-.site-footer hr { display: none; }
-.site-footer {
-  padding: 40px 0 60px;
-}
+  }
+  .site-footer hr { display: none; }
+  .site-footer { padding: 40px 0 60px; }
 
 
 .section-block .lead { color: #999; }
@@ -31,14 +66,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #333;
-  background-image:url(../img/banner-main.jpg);
+  background-image:url(../img/banner-main.jpg) no-repeat;
   background-position: center bottom;
   padding: 200px 0;
 
 
   h1, h2, h3, .lead { color: #fff; text-shadow: 0 2px 3px rgba(0, 0, 0, 1); }
   }
-.jumbotron .lead { font-weight: 300; }
 
 
 
@@ -46,58 +80,3 @@
 
 
 
-
-/* ***************************************** */
-
-
-
-/* Partners */
-#partners {
-  background: #f0f0f0;
-  padding: 40px 0 60px;
-  }
-  .partner-list {
-    text-align: center;
-    margin: 0;
-    padding-left: 0;
-      }
-      .partner-list li {
-        display: inline-block;
-        margin: 24px;
-        }
-        .partner-list li img {
-          max-width: 100px;
-          }
-
-
-
-/* Team section */
-#team {
-  background: #f0f0f0;
-  padding: 40px 0 60px;
-  }
-  .team-list .thumbnail {
-    border-radius: 50%;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
-    padding: 0;
-    border: 0;
-    }
-
-
-
-/* Popover */
-.popover {
-    max-width: 90%;
-}
-
-/* Tooltip */
-.tooltip {
-  font-size: 0.94rem;
-  line-height: 1.25rem;
-  }
-  .tooltip-inner { /* space inside tooltip */
-    max-width: 200px;
-    padding: 8px 12px;
-    border-radius: 0px;
-    }

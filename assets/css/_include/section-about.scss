@@ -1,13 +1,16 @@
-.tick-box .fa-check:before {
-    color: #89C01B;
-}
-.tick-box {
-    margin: 24px 0 40px;
-    padding: 0;
-}
-.tick-box li {
+#about .tick-box .fa-check:before {
+  color: #89C01B;
+  }
+
+#about .tick-box {
+  margin: 24px;
+  padding: 0;
+  }
+
+#about .tick-box li {
   list-style: none;
-    font-size: 1.25rem;
-    font-weight: 500;
-    line-height: 2rem;
-}
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2rem;
+  }
+

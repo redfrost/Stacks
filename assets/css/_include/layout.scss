@@ -1,13 +1,16 @@
 body {
-  padding-top: $navbar-height * 1px;
+  padding-top: 50px;
   background: #fff;
   }
+  @media (min-width:992px) {
+    body { padding-top: $navbar-height * 1px; }
+    }
+
 
 .container {
   width: 100%;
   max-width: $container-width * 1px !important;
   margin: auto;
   }
-
 
 

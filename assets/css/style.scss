@@ -8,7 +8,7 @@
 @import "_library/font-awesome";
 @import "_library/animate";
 @import "_include/global";
-@import "_include/_setup";
+@import "_setup";
 
 /* =============================================================================
    Layout setting
@@ -64,6 +64,8 @@
 /* =============================================================================
    Custom style
    ============================================================================= */
+@import "_include/elements";
+@import "_include/theme";
 @import "_include/custom";
 
 /* =============================================================================
@@ -72,6 +74,8 @@
 @import "_include/section-about";
 @import "_include/section-pricing";
 @import "_include/section-contact";
+@import "_include/section-partners";
+@import "_include/section-team";
 
 /* =============================================================================
    Plugins

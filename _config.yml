@@ -1,5 +1,5 @@
 # CONFIG - Refresh terminal command after updating this file to apply
-testMode:     "on"          # on|off: Display testing helpers
+testMode:     "off"          # on|off: Display testing helpers
 
 
 # Default setting
@@ -21,7 +21,7 @@ designerURL:  "http://redfrost.com/"   # Designer / Developer website
 copyright:    "Redmund Frost D&D"      # Copyright holder
 keywords:     "generator"              # for SEO
 version:      "v1.0"                   # Dev version
-FacebookAppID:    ""                   # Facebook App ID
+FacebookAppID: ""                      # Facebook App ID
 
 
 # Layout
@@ -29,7 +29,6 @@ layout:       "responsive"  # static|responsive: (for mobile view only. Desktop 
 mobileZoom:   ""            # 1.0=disable zoom, or leave it blank to allow zoom
 topNavbar:    "on"          # on|off: top fixed nav
 logoType:     "text"        # text|image
-logoWidth:    "200"         # Image logo width
 gridClass:
   main:       "col-sm-8"
   sidebar:    "col-sm-4"

@@ -38,15 +38,13 @@
 
 
   <!-- Styles -->
-  <link rel="stylesheet" href="assets/css/style.css?v1427505749">
+  <link rel="stylesheet" href="assets/css/style.css?v1428125095">
 
 
   
 
 
-  <!-- Test mode -->
-  <link rel="stylesheet" href="assets/css/style-test.css?v1427505749">
-  <meta name="robots" content="noindex, nofollow">
+  
 </head>
 
 
@@ -70,7 +68,11 @@
 
         <!-- Logo -->
         <div class="logo-box">
-          <a class="navbar-brand logo-text" href=""><strong>Stacks</strong> <small>1P site theme</small></a>
+
+          <a class="navbar-brand logo-text" href="">
+            <span class="site-title">Stacks <small class="slogan">1P site theme</small></span>
+          </a>
+          
         </div>
       </div><!-- /.navbar-header -->
 
@@ -366,7 +368,7 @@
 
 			<div class="page-header text-center">
   			<h2>Our Team</h2>
-			  <p class="byline">Praesent commodo cursus magna</p>
+			  <p class="lead">Praesent commodo cursus magna</p>
 			</div><!-- /.page-header-->
 
 			<div class="team-list col-xs-4 col-sm-2">
@@ -502,67 +504,65 @@
 				</div>
 
 				<div id="contact-form" class="collapse">
-				<form id="form1" name="form1" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate="" action="" role="form">
+				<form id="form1" name="form1" class="form-horizontal" autocomplete="off" enctype="multipart/form-data" method="post" novalidate="" action="" role="form">
 
+  <h3>Contact Us</h3>
+
+
+  <div id="foli5" class="form-group">
+    <label id="title5" for="Field5" class="col-sm-2 control-label">Name<span id="req_5" class="req">*</span></label>
+
+    <div class="col-sm-10 form-inline">
+      <input id="Field5" name="Field5" type="text" class="form-control" placeholder="First Name" required="" />
+      <input id="Field6" name="Field6" type="text" class="form-control" placeholder="Last Name" required="" />
+    </div>
+  </div>
+
+
+  <div id="foli7" class="form-group">
+    <label id="title7" for="Field7" class="col-sm-2 control-label">Email<span id="req_7" class="req">*</span></label>
+
+    <div class="col-sm-10">
+      <input id="Field7" name="Field7" type="email" class="form-control" placeholder="johndoe@gmail.com" spellcheck="false" value="" maxlength="255" tabindex="3" required="" />
+    </div>
+  </div>
+
+
+  <div id="foli4" class="form-group">
+    <label id="title4" for="Field4" class="col-sm-2 control-label">Subject</label>
+
+    <div class="col-sm-10">
+      <input id="Field4" name="Field4" type="text" class="form-control" value="" maxlength="255" tabindex="4" onkeyup="" />
+    </div>
+  </div>
+
+
+  <!-- Textbox -->
+  <div id="foli8" class="form-group">
+    <label id="title8" for="Field8" class="col-sm-2 control-label">Message</label>
+
+    <div class="col-sm-10">
+      <textarea id="Field8" name="Field8" class="textarea medium form-control" spellcheck="true" rows="10" cols="50" tabindex="5" onkeyup=""></textarea>
+    </div>
+  </div>
+
+
+  <!-- Button -->
   <div class="form-group">
-    <ul>
-      <h3>Contact Us</h3>
+    <div class="col-sm-offset-2 col-sm-10">
+      <input id="saveForm" name="saveForm" class="btn btn-large btn-primary submit" type="submit" value="Submit »" />
+    </div>
+  </div>
 
 
-    	<li id="foli5" class="notranslate form-inline">
-      	<label class="desc" id="title5" for="Field5">Name<span id="req_5" class="req">*</span></label>
+  <div class="hide">
+    <label for="comment">Do Not Fill This Out</label>
+      <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+    <input type="hidden" id="idstamp" name="idstamp" value="" />
+  </div>
 
-      	<div class="form-group">
-        	<span><input id="Field5" name="Field5" type="text" class="field text fn form-control" placeholder="First Name" size="14" tabindex="1" required="" /></span>
-      	</div>
-
-      	<div class="form-group">
-        	<span><input id="Field6" name="Field6" type="text" class="field text ln form-control" placeholder="Last Name" size="14" tabindex="2" required="" /></span>
-      	</div>
-    	</li>
-
-
-      <li id="foli7" class="notranslate">
-        <label class="desc" id="title7" for="Field7">Email
-        <span id="req_7" class="req">*</span></label>
-        <div>
-          <input id="Field7" name="Field7" type="email" spellcheck="false" class="field text medium form-control" placeholder="johndoe@gmail.com" value="" maxlength="255" tabindex="3" required="" />
-        </div>
-      </li>
-
-
-    	<li id="foli4" class="notranslate">
-      	<label class="desc" id="title4" for="Field4">Subject</label>
-  	    <div>
-    	    <input id="Field4" name="Field4" type="text" class="field text medium form-control" value="" maxlength="255" tabindex="4" onkeyup="" />
-  	    </div>
-    	</li>
-
-
-      <!-- Textbox -->
-    	<li id="foli8" class="notranslate">
-      	<label class="desc" id="title8" for="Field8">Message</label>
-        <div>
-    	    <textarea id="Field8" name="Field8" class="field textarea medium form-control" spellcheck="true" rows="10" cols="50" tabindex="5" onkeyup=""></textarea>
-  	    </div>
-    	</li>
-
-
-      <!-- Button -->
-    	<input id="saveForm" name="saveForm" class="btn btn-large btn-info btTxt submit" type="submit" value="Submit »" />
-
-
-    	<li class="hide">
-      	<label for="comment">Do Not Fill This Out</label>
-        	<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-      	<input type="hidden" id="idstamp" name="idstamp" value="" />
-    	</li>
-  	</ul>
-
-  </div><!-- /.form-group -->
 
 </form>
-
 
 				</div><!-- /#contact-form -->
 
@@ -582,33 +582,34 @@
 			  <p class="lead">Cool People Who Support Us</p>
 			</div><!-- /.page-header-->
 
-			<ul class="partner-list">
 
-				<li>
-					<img src="assets/img/partners_01.jpg" class="img-responsive" alt="partners" />
-				</li>
+			<div class="partner-list">
 
-				<li>
-					<img src="assets/img/partners_02.jpg" class="img-responsive" alt="partners" />
-				</li>
+				<div class="col-xs-6 col-md-2">
+					<img src="assets/img/partners_01.jpg" class="thumbnail img-responsive" alt="partners" />
+				</div>
 
-				<li>
-					<img src="assets/img/partners_03.jpg" class="img-responsive" alt="partners" />
-				</li>
+				<div class="col-xs-6 col-md-2">
+					<img src="assets/img/partners_02.jpg" class="thumbnail img-responsive" alt="partners" />
+				</div>
 
-				<li>
-					<img src="assets/img/partners_04.jpg" class="img-responsive" alt="partners" />
-				</li>
+				<div class="col-xs-6 col-md-2">
+					<img src="assets/img/partners_03.jpg" class="thumbnail img-responsive" alt="partners" />
+				</div>
 
-				<li>
-					<img src="assets/img/partners_05.jpg" class="img-responsive" alt="partners" />
-				</li>
+				<div class="col-xs-6 col-md-2">
+					<img src="assets/img/partners_04.jpg" class="thumbnail img-responsive" alt="partners" />
+				</div>
 
-				<li>
-					<img src="assets/img/partners_06.jpg" class="img-responsive" alt="partners" />
-				</li>
+				<div class="col-xs-6 col-md-2">
+					<img src="assets/img/partners_05.jpg" class="thumbnail img-responsive" alt="partners" />
+				</div>
 
-			</ul>
+				<div class="col-xs-6 col-md-2">
+					<img src="assets/img/partners_06.jpg" class="thumbnail img-responsive" alt="partners" />
+				</div>
+
+			</div><!-- /.partner-list -->
 
 
 		</div><!-- /.row -->
@@ -723,9 +724,9 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.js"><\/script>')</script>
   <script src="assets/js/vendor/modernizr.js"></script>
-  <script src="assets/js/vendor/bootstrap.js?v1427505749"></script>
-  <script src="assets/js/main.js?v1427505749"></script>
-  <script src="assets/js/custom.js?v1427505749"></script>
+  <script src="assets/js/vendor/bootstrap.js?v1428125095"></script>
+  <script src="assets/js/main.js?v1428125095"></script>
+  <script src="assets/js/custom.js?v1428125095"></script>
 
 
   <!-- Plugins -->

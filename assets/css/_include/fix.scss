@@ -18,10 +18,6 @@ html { filter: expression(document.execCommand("BackgroundImageCache", false, tr
 iframe { border: 0; }
 
 
-/* Bootstrap Fix Lines on Button (Retina) */
-.btn:hover { background-position: inherit; }
-
-
 /* Animation Fix
 -webkit-transform: translate3d(0, 0, 0); Webkit Hardware Acceleration
 Caution: -webkit-transform: translateZ(0); This causes webkit animation bug
