@@ -64,18 +64,15 @@
 
 .jumbotron {
   background-repeat: no-repeat;
-  background-size: cover;
   background-color: #333;
-  background-image:url(../img/banner-main.jpg) no-repeat;
-  background-position: center bottom;
+  background: url(../img/banner-main.jpg) no-repeat center bottom;
+  background-size: cover;
   padding: 200px 0;
 
 
   h1, h2, h3, .lead { color: #fff; text-shadow: 0 2px 3px rgba(0, 0, 0, 1); }
+
   }
-
-
-
 
 
 

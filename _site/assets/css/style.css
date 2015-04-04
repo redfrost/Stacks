@@ -13100,10 +13100,9 @@ Caution: -webkit-backface-visibility: hidden; This causes iPad crash, Mac Safari
 
 .jumbotron {
   background-repeat: no-repeat;
-  background-size: cover;
   background-color: #333;
-  background-image: url(../img/banner-main.jpg) no-repeat;
-  background-position: center bottom;
+  background: url(../img/banner-main.jpg) no-repeat center bottom;
+  background-size: cover;
   padding: 200px 0;
 }
 .jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron .lead {
